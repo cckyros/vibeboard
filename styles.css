@@ -225,16 +225,19 @@ main { padding: 0 clamp(16px, 4vw, 48px); max-width: 1080px; margin: 0 auto; }
 .stars, .delta, .lang {
   font-family: var(--mono);
   font-size: 13px;
+  text-align: right;
 }
-.stars { font-weight: 700; font-size: 14.5px; }
+.stars { font-weight: 700; font-size: 14.5px; min-width: 8.5ch; }
 .stars::before { content: "★ "; color: var(--ink-2); font-weight: 400; }
-.delta { color: var(--accent-2); font-weight: 600; min-width: 52px; text-align: right; }
+.delta { color: var(--accent-2); font-weight: 600; min-width: 6ch; }
 .delta.zero { color: var(--ink-2); font-weight: 400; }
-.lang { color: var(--ink-2); font-size: 12px; min-width: 34px; }
+.lang { color: var(--ink-2); font-size: 12px; min-width: 10ch; }
 .chev {
   font-family: var(--mono);
   color: var(--ink-2);
   font-size: 12px;
+  width: 1em;
+  text-align: center;
   transition: transform 200ms var(--ease-out);
 }
 .row[data-open="true"] .chev { transform: rotate(90deg); }

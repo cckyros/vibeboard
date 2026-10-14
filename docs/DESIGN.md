@@ -57,6 +57,7 @@ worldview（一句话点题 + 实时统计）→ board（三块榜单）→ 领�
 ## 视觉系统规则
 
 - **记分板质感**：排名用超大 mono 等宽数字（`font-variant-numeric: tabular-nums`），行与行之间用 hairline 分隔，不用卡片
+- **度量列对齐**：stars/Δ/lang 用固定 ch 宽 + 右对齐，保证跨行形成垂直列（记分板核心特征）
 - **一个强调色**：橙只给排名 #1-3、当前 tab、CTA；Δ7d 增量用绿
 - **零外部依赖**：不用 webfont/框架/CDN——系统字体栈，全站 < 60KB
 - **唯一的"装饰"**：顶部一条 3px 橙色记分条（scoreboard stripe）+ 排名数字本身
