@@ -1,0 +1,12 @@
+{
+  "name": "vibeboard",
+  "version": "0.1.0",
+  "description": "The evidence wall of vibe coding — open-source products ranked by real GitHub data",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.mjs",
+    "test": "node --test test/",
+    "serve": "node scripts/serve.mjs"
+  }
+}
