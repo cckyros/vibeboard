@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generatedAt": "2026-10-17T01:13:42.073Z",
+  "generatedAt": "2026-10-17T14:09:54.532Z",
   "repoCount": 120,
-  "totalStars": 689402,
+  "totalStars": 690189,
   "topics": [
    "vibe-coding",
    "vibecoding",
@@ -19,8 +19,8 @@
     "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
     "url": "https://github.com/zarazhangrui/frontend-slides",
     "homepage": null,
-    "stars": 30773,
-    "forks": 2384,
+    "stars": 30801,
+    "forks": 2385,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-01-28T00:42:34Z",
@@ -36,15 +36,15 @@
      "presentation"
     ],
     "category": "Agents",
-    "stars7d": 281
+    "stars7d": 283
    },
    {
     "name": "Egonex-AI/Understand-Anything",
     "desc": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "url": "https://github.com/Egonex-AI/Understand-Anything",
     "homepage": "https://understand-anything.com/",
-    "stars": 86653,
-    "forks": 7302,
+    "stars": 86732,
+    "forks": 7311,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-03-15T02:30:51Z",
@@ -60,19 +60,19 @@
      "developer-tools-ai-agent"
     ],
     "category": "Agents",
-    "stars7d": 276
+    "stars7d": 268
    },
    {
     "name": "GCWing/OpenBitFun",
     "desc": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
     "url": "https://github.com/GCWing/OpenBitFun",
     "homepage": "openbitfun.com",
-    "stars": 2697,
-    "forks": 264,
+    "stars": 2827,
+    "forks": 267,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-02-02T09:52:10Z",
-    "pushed": "2026-10-17T01:08:21Z",
+    "pushed": "2026-10-17T11:40:43Z",
     "topics": [
      "agent-teams",
      "agentic",
@@ -84,63 +84,15 @@
      "bitfun"
     ],
     "category": "Agents",
-    "stars7d": 256
-   },
-   {
-    "name": "marvkr/better-design",
-    "desc": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
-    "url": "https://github.com/marvkr/better-design",
-    "homepage": "https://better-design.com",
-    "stars": 453,
-    "forks": 24,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2026-05-05T20:01:56Z",
-    "pushed": "2026-09-22T18:59:05Z",
-    "topics": [
-     "ai-design",
-     "claude-code",
-     "claude-code-for-design",
-     "claude-design",
-     "codex-design",
-     "coding-agents",
-     "component-library",
-     "cursor"
-    ],
-    "category": "Agents",
-    "stars7d": 204
-   },
-   {
-    "name": "4ian/GDevelop",
-    "desc": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
-    "url": "https://github.com/4ian/GDevelop",
-    "homepage": "https://gdevelop.io",
-    "stars": 27623,
-    "forks": 1592,
-    "lang": "JavaScript",
-    "license": "NOASSERTION",
-    "created": "2014-06-29T19:58:38Z",
-    "pushed": "2026-10-17T00:58:23Z",
-    "topics": [
-     "2d-game",
-     "2d-game-engine",
-     "3d",
-     "3d-game",
-     "3d-game-engine",
-     "game",
-     "game-development",
-     "game-engine"
-    ],
-    "category": "Games",
-    "stars7d": 153
+    "stars7d": 241
    },
    {
     "name": "lnkiai/m3e-canvas",
     "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
     "url": "https://github.com/lnkiai/m3e-canvas",
     "homepage": "https://lnkiai.github.io/m3e-canvas/",
-    "stars": 9413,
-    "forks": 1017,
+    "stars": 9438,
+    "forks": 1020,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-09-02T04:36:34Z",
@@ -156,15 +108,87 @@
      "vibe-coding"
     ],
     "category": "Other",
-    "stars7d": 142
+    "stars7d": 224
+   },
+   {
+    "name": "marvkr/better-design",
+    "desc": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+    "url": "https://github.com/marvkr/better-design",
+    "homepage": "https://better-design.com",
+    "stars": 465,
+    "forks": 26,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2026-05-05T20:01:56Z",
+    "pushed": "2026-09-22T18:59:05Z",
+    "topics": [
+     "ai-design",
+     "claude-code",
+     "claude-code-for-design",
+     "claude-design",
+     "codex-design",
+     "coding-agents",
+     "component-library",
+     "cursor"
+    ],
+    "category": "Agents",
+    "stars7d": 216
+   },
+   {
+    "name": "nexu-io/open-design",
+    "desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+    "url": "https://github.com/nexu-io/open-design",
+    "homepage": "https://open-design.ai",
+    "stars": 101830,
+    "forks": 11700,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2026-04-28T04:25:20Z",
+    "pushed": "2026-10-17T10:08:25Z",
+    "topics": [
+     "agent-skills",
+     "ai-design",
+     "byok",
+     "claude-code-for-design",
+     "claude-design",
+     "codex-design",
+     "coding-agents",
+     "cursor-design"
+    ],
+    "category": "Agents",
+    "stars7d": 170
+   },
+   {
+    "name": "4ian/GDevelop",
+    "desc": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
+    "url": "https://github.com/4ian/GDevelop",
+    "homepage": "https://gdevelop.io",
+    "stars": 27642,
+    "forks": 1595,
+    "lang": "JavaScript",
+    "license": "NOASSERTION",
+    "created": "2014-06-29T19:58:38Z",
+    "pushed": "2026-10-17T04:05:02Z",
+    "topics": [
+     "2d-game",
+     "2d-game-engine",
+     "3d",
+     "3d-game",
+     "3d-game-engine",
+     "game",
+     "game-development",
+     "game-engine"
+    ],
+    "category": "Games",
+    "stars7d": 155
    },
    {
     "name": "oraios/serena",
     "desc": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
     "url": "https://github.com/oraios/serena",
     "homepage": "https://oraios.github.io/serena",
-    "stars": 30333,
-    "forks": 2114,
+    "stars": 30343,
+    "forks": 2148,
     "lang": "Python",
     "license": "NOASSERTION",
     "created": "2025-03-23T22:35:24Z",
@@ -180,19 +204,19 @@
      "jetbrains"
     ],
     "category": "Agents",
-    "stars7d": 137
+    "stars7d": 126
    },
    {
     "name": "upstash/context7",
     "desc": "Context7 Platform -- Up-to-date docs for AI agents",
     "url": "https://github.com/upstash/context7",
     "homepage": "https://context7.com",
-    "stars": 63161,
-    "forks": 3103,
+    "stars": 63187,
+    "forks": 3106,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-03-26T23:40:39Z",
-    "pushed": "2026-10-16T14:31:37Z",
+    "pushed": "2026-10-17T02:03:24Z",
     "topics": [
      "llm",
      "mcp",
@@ -200,15 +224,15 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 123
+    "stars7d": 125
    },
    {
     "name": "nexu-io/html-anything",
     "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
     "url": "https://github.com/nexu-io/html-anything",
     "homepage": "https://open-design.ai/html-anything/",
-    "stars": 9150,
-    "forks": 879,
+    "stars": 9155,
+    "forks": 880,
     "lang": "HTML",
     "license": "Apache-2.0",
     "created": "2026-05-11T09:40:38Z",
@@ -224,43 +248,19 @@
      "claude-code"
     ],
     "category": "Agents",
-    "stars7d": 112
-   },
-   {
-    "name": "nexu-io/open-design",
-    "desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-    "url": "https://github.com/nexu-io/open-design",
-    "homepage": "https://open-design.ai",
-    "stars": 101634,
-    "forks": 11682,
-    "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2026-04-28T04:25:20Z",
-    "pushed": "2026-10-16T23:17:26Z",
-    "topics": [
-     "agent-skills",
-     "ai-design",
-     "byok",
-     "claude-code-for-design",
-     "claude-design",
-     "codex-design",
-     "coding-agents",
-     "cursor-design"
-    ],
-    "category": "Agents",
-    "stars7d": 111
+    "stars7d": 106
    },
    {
     "name": "spacering-net/codeg",
     "desc": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
     "url": "https://github.com/spacering-net/codeg",
     "homepage": "https://docs.codeg.app",
-    "stars": 3987,
-    "forks": 516,
+    "stars": 3992,
+    "forks": 517,
     "lang": "Rust",
     "license": "Apache-2.0",
     "created": "2026-02-09T09:22:50Z",
-    "pushed": "2026-10-16T14:18:04Z",
+    "pushed": "2026-10-17T10:54:19Z",
     "topics": [
      "acp",
      "ade",
@@ -279,7 +279,7 @@
     "desc": "🚧 Under construction — no-training RefMod reference adapters for MiniMax H3 (compress reference images/videos into tiny latents, no training needed).",
     "url": "https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod",
     "homepage": null,
-    "stars": 441,
+    "stars": 447,
     "forks": 50,
     "lang": "Python",
     "license": "MIT",
@@ -294,7 +294,7 @@
      "vibe-coded"
     ],
     "category": "Extensions",
-    "stars7d": 93
+    "stars7d": 99
    },
    {
     "name": "kharmanskyi/open-steps",
@@ -325,7 +325,7 @@
     "desc": "Ghost Proxifier Pro 是一款专为 Windows 平台打造的高性能进程级透明代理引擎，旨在解决现代复杂网络环境下的两大痛点：「特定应用不走系统代理」以及「多重 VPN/代理路由冲突」。  核心亮点描述： 真正的进程级细粒度控制：不同于传统的全局代理或 TUN 模式，它基于 MinHook 直接拦截应用层 Winsock API。这意味着您可以精确指定某个进程（如 Chrome、游戏或特定工具）走代理，而无需修改系统全局路由表。 「全家桶」自动关联技术：Pro 版独有的进程追踪算法。只需接管母进程，它便能智能识别并自动拦截该软件启动的所有关联子进程，彻底告别繁琐的手动配置。 零侵入、高兼容：采用独创的 Lazy Handshake (延迟握手) 机制，完美兼容现代异步 IO",
     "url": "https://github.com/liliBestCoder/ghost-proxifier-pro",
     "homepage": "https://ghostproxifier.com",
-    "stars": 333,
+    "stars": 335,
     "forks": 22,
     "lang": "HTML",
     "license": "NOASSERTION",
@@ -349,7 +349,7 @@
     "desc": "🧑‍🎨 A collection of Golang agentic skills that works",
     "url": "https://github.com/samber/cc-skills-golang",
     "homepage": "https://skills.sh/samber/cc-skills-golang",
-    "stars": 3497,
+    "stars": 3502,
     "forks": 231,
     "lang": "Go",
     "license": "MIT",
@@ -366,43 +366,43 @@
      "codex"
     ],
     "category": "Agents",
-    "stars7d": 74
+    "stars7d": 75
    },
    {
-    "name": "onlook-dev/onlook",
-    "desc": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
-    "url": "https://github.com/onlook-dev/onlook",
-    "homepage": "https://onlook.com",
-    "stars": 26928,
-    "forks": 2286,
+    "name": "JetBrains/thinkrail",
+    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "homepage": "https://thinkrail.ai/",
+    "stars": 587,
+    "forks": 48,
     "lang": "TypeScript",
     "license": "Apache-2.0",
-    "created": "2024-06-25T19:16:02Z",
-    "pushed": "2026-08-25T01:06:22Z",
+    "created": "2026-07-08T07:40:43Z",
+    "pushed": "2026-10-17T11:58:40Z",
     "topics": [
-     "ai",
-     "claude-code",
-     "codex",
-     "cursor",
-     "design",
-     "design-system",
-     "design-to-code",
-     "design-tool"
+     "agent",
+     "agent-skills",
+     "agentic-ai",
+     "agentic-workflow",
+     "ai-coding",
+     "ai-tools",
+     "pi-agent",
+     "pi-agent-extension"
     ],
     "category": "Agents",
-    "stars7d": 72
+    "stars7d": 70
    },
    {
     "name": "ZSeven-W/openpencil",
     "desc": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
     "url": "https://github.com/ZSeven-W/openpencil",
     "homepage": "https://op.zseven.tech",
-    "stars": 6177,
+    "stars": 6181,
     "forks": 540,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-02-17T10:51:46Z",
-    "pushed": "2026-10-16T16:08:29Z",
+    "pushed": "2026-10-17T11:08:43Z",
     "topics": [
      "agent",
      "agent-team",
@@ -421,7 +421,7 @@
     "desc": "An elegant, information-rich status, menu, and side bar for Pi Agent.",
     "url": "https://github.com/michaelmjhhhh/pi-atelier",
     "homepage": "https://pi.dev/packages/pi-atelier",
-    "stars": 365,
+    "stars": 369,
     "forks": 31,
     "lang": "TypeScript",
     "license": "MIT",
@@ -445,8 +445,8 @@
     "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
     "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
     "homepage": "https://desktopcommander.app/",
-    "stars": 10075,
-    "forks": 1277,
+    "stars": 10079,
+    "forks": 1280,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2024-12-04T08:26:08Z",
@@ -462,19 +462,43 @@
      "terminal-automation"
     ],
     "category": "Agents",
-    "stars7d": 57
+    "stars7d": 60
+   },
+   {
+    "name": "ardeyouxipianyi/workbuddy2api-hub",
+    "desc": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
+    "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
+    "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
+    "stars": 1583,
+    "forks": 318,
+    "lang": "Python",
+    "license": "MIT",
+    "created": "2026-09-12T09:03:40Z",
+    "pushed": "2026-10-17T06:47:33Z",
+    "topics": [
+     "api-gateway",
+     "claude-code",
+     "codebuddy",
+     "codex",
+     "deepseek",
+     "openai-api",
+     "reverse-proxy",
+     "tencent"
+    ],
+    "category": "DevTools",
+    "stars7d": 56
    },
    {
     "name": "0Chencc/clawgod",
     "desc": "ClawGod is a runtime patch applied to the official Claude Code. It continues to be supported with each version update.",
     "url": "https://github.com/0Chencc/clawgod",
     "homepage": "http://clawgod.0chen.cc",
-    "stars": 2172,
+    "stars": 2174,
     "forks": 353,
     "lang": "JavaScript",
     "license": "GPL-3.0",
     "created": "2026-04-01T11:09:07Z",
-    "pushed": "2026-10-16T12:29:35Z",
+    "pushed": "2026-10-17T11:40:14Z",
     "topics": [
      "ai",
      "assistant",
@@ -486,15 +510,15 @@
      "linux"
     ],
     "category": "Other",
-    "stars7d": 52
+    "stars7d": 48
    },
    {
     "name": "kevinpbuckley/VibeUE",
     "desc": "Unreal Engine Vibe Coding tool",
     "url": "https://github.com/kevinpbuckley/VibeUE",
     "homepage": "https://www.vibeue.com",
-    "stars": 773,
-    "forks": 167,
+    "stars": 776,
+    "forks": 170,
     "lang": "C++",
     "license": "MIT",
     "created": "2025-09-12T14:25:35Z",
@@ -510,14 +534,38 @@
      "game-development"
     ],
     "category": "Agents",
-    "stars7d": 45
+    "stars7d": 46
+   },
+   {
+    "name": "Yeachan-Heo/oh-my-claudecode",
+    "desc": "Teams-first Multi-agent orchestration for Claude Code",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "homepage": "https://oh-my-claudecode.dev",
+    "stars": 39996,
+    "forks": 3586,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2026-01-09T03:36:29Z",
+    "pushed": "2026-10-17T13:23:58Z",
+    "topics": [
+     "agentic-coding",
+     "ai-agents",
+     "automation",
+     "claude",
+     "claude-code",
+     "multi-agent-systems",
+     "oh-my-opencode",
+     "opencode"
+    ],
+    "category": "Agents",
+    "stars7d": 44
    },
    {
     "name": "smtg-ai/claude-squad",
     "desc": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
     "url": "https://github.com/smtg-ai/claude-squad",
     "homepage": "https://smtg-ai.github.io/claude-squad/",
-    "stars": 8613,
+    "stars": 8617,
     "forks": 631,
     "lang": "Go",
     "license": "AGPL-3.0",
@@ -531,7 +579,7 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 43
+    "stars7d": 42
    },
    {
     "name": "zilliztech/claude-context",
@@ -555,7 +603,31 @@
      "embedding"
     ],
     "category": "Agents",
-    "stars7d": 37
+    "stars7d": 36
+   },
+   {
+    "name": "onlook-dev/onlook",
+    "desc": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+    "url": "https://github.com/onlook-dev/onlook",
+    "homepage": "https://onlook.com",
+    "stars": 26931,
+    "forks": 2394,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2024-06-25T19:16:02Z",
+    "pushed": "2026-08-25T01:06:22Z",
+    "topics": [
+     "ai",
+     "claude-code",
+     "codex",
+     "cursor",
+     "design",
+     "design-system",
+     "design-to-code",
+     "design-tool"
+    ],
+    "category": "Agents",
+    "stars7d": 35
    },
    {
     "name": "flipped-aurora/gin-vue-admin",
@@ -579,7 +651,31 @@
      "gin-vue-admin"
     ],
     "category": "Agents",
-    "stars7d": 36
+    "stars7d": 34
+   },
+   {
+    "name": "tutti-os/tutti",
+    "desc": "Where people and agents build in tune.",
+    "url": "https://github.com/tutti-os/tutti",
+    "homepage": "https://tutti.sh/",
+    "stars": 3836,
+    "forks": 381,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2026-06-12T12:29:05Z",
+    "pushed": "2026-10-08T07:05:00Z",
+    "topics": [
+     "agent-collaboration",
+     "agent-orchestration",
+     "agent-workspace",
+     "agentic-ai",
+     "agentic-workflow",
+     "ai-agents",
+     "ai-tools",
+     "ai-workspace"
+    ],
+    "category": "Agents",
+    "stars7d": 33
    },
    {
     "name": "kaanozhan/Frame",
@@ -603,14 +699,38 @@
      "claude-code"
     ],
     "category": "Agents",
-    "stars7d": 35
+    "stars7d": 33
+   },
+   {
+    "name": "zhnt/loushang",
+    "desc": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
+    "url": "https://github.com/zhnt/loushang",
+    "homepage": null,
+    "stars": 1787,
+    "forks": 280,
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "created": "2026-05-29T17:25:11Z",
+    "pushed": "2026-10-17T12:50:34Z",
+    "topics": [
+     "agent",
+     "agent-harness",
+     "agentic",
+     "ai",
+     "chatgpt",
+     "claude",
+     "claude-code",
+     "codex"
+    ],
+    "category": "Agents",
+    "stars7d": 30
    },
    {
     "name": "jipika/WaifuX",
     "desc": "macos (mac) Wallhaven · MotionBG · Anime | 壁纸 · 动态壁纸 · 番剧",
     "url": "https://github.com/jipika/WaifuX",
     "homepage": "https://jipika.github.io/WaifuX",
-    "stars": 1494,
+    "stars": 1495,
     "forks": 61,
     "lang": "Swift",
     "license": "GPL-3.0",
@@ -627,111 +747,39 @@
      "vibe-coding"
     ],
     "category": "CLI",
-    "stars7d": 33
-   },
-   {
-    "name": "Yeachan-Heo/oh-my-claudecode",
-    "desc": "Teams-first Multi-agent orchestration for Claude Code",
-    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "homepage": "https://oh-my-claudecode.dev",
-    "stars": 39976,
-    "forks": 3586,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2026-01-09T03:36:29Z",
-    "pushed": "2026-10-16T21:43:44Z",
-    "topics": [
-     "agentic-coding",
-     "ai-agents",
-     "automation",
-     "claude",
-     "claude-code",
-     "multi-agent-systems",
-     "oh-my-opencode",
-     "opencode"
-    ],
-    "category": "Agents",
-    "stars7d": 31
-   },
-   {
-    "name": "tutti-os/tutti",
-    "desc": "Where people and agents build in tune.",
-    "url": "https://github.com/tutti-os/tutti",
-    "homepage": "https://tutti.sh/",
-    "stars": 3833,
-    "forks": 381,
-    "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2026-06-12T12:29:05Z",
-    "pushed": "2026-10-08T07:05:00Z",
-    "topics": [
-     "agent-collaboration",
-     "agent-orchestration",
-     "agent-workspace",
-     "agentic-ai",
-     "agentic-workflow",
-     "ai-agents",
-     "ai-tools",
-     "ai-workspace"
-    ],
-    "category": "Agents",
-    "stars7d": 31
-   },
-   {
-    "name": "ardeyouxipianyi/workbuddy2api-hub",
-    "desc": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
-    "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
-    "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-    "stars": 1518,
-    "forks": 307,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2026-09-12T09:03:40Z",
-    "pushed": "2026-10-16T07:58:31Z",
-    "topics": [
-     "api-gateway",
-     "claude-code",
-     "codebuddy",
-     "codex",
-     "deepseek",
-     "openai-api",
-     "reverse-proxy",
-     "tencent"
-    ],
-    "category": "DevTools",
     "stars7d": 30
    },
    {
-    "name": "zhnt/loushang",
-    "desc": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
-    "url": "https://github.com/zhnt/loushang",
-    "homepage": null,
-    "stars": 1783,
-    "forks": 278,
-    "lang": "Python",
-    "license": "Apache-2.0",
-    "created": "2026-05-29T17:25:11Z",
-    "pushed": "2026-10-16T14:56:49Z",
+    "name": "tw93/Kaku",
+    "desc": "An AI-friendly Mac terminal with sensible defaults, ready out of the box.",
+    "url": "https://github.com/tw93/Kaku",
+    "homepage": "https://kaku.fun",
+    "stars": 6118,
+    "forks": 317,
+    "lang": "Rust",
+    "license": "MIT",
+    "created": "2026-02-07T13:00:49Z",
+    "pushed": "2026-10-17T05:44:49Z",
     "topics": [
-     "agent",
-     "agent-harness",
-     "agentic",
-     "ai",
-     "chatgpt",
-     "claude",
-     "claude-code",
-     "codex"
+     "ai-coding",
+     "macos",
+     "rust",
+     "serial",
+     "terminal",
+     "terminal-app",
+     "terminal-emulator",
+     "vibe-coding"
     ],
-    "category": "Agents",
-    "stars7d": 26
+    "category": "CLI",
+    "stars7d": 25
    },
    {
     "name": "chaitin/MonkeyCode",
     "desc": "AI coding platform for teams",
     "url": "https://github.com/chaitin/MonkeyCode",
     "homepage": "https://monkeycode-ai.net/",
-    "stars": 4834,
-    "forks": 741,
+    "stars": 4836,
+    "forks": 740,
     "lang": "TypeScript",
     "license": "AGPL-3.0",
     "created": "2025-06-25T06:35:32Z",
@@ -747,7 +795,7 @@
      "coding"
     ],
     "category": "Agents",
-    "stars7d": 23
+    "stars7d": 20
    },
    {
     "name": "kostja94/marketing-skills",
@@ -770,31 +818,79 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 21
+    "stars7d": 19
    },
    {
-    "name": "tw93/Kaku",
-    "desc": "🎃 A blazing-fast Mac terminal, built for coding with AI.",
-    "url": "https://github.com/tw93/Kaku",
-    "homepage": "https://kaku.fun",
-    "stars": 6118,
-    "forks": 316,
-    "lang": "Rust",
+    "name": "happier-dev/happier",
+    "desc": "Web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
+    "url": "https://github.com/happier-dev/happier",
+    "homepage": "https://happier.dev",
+    "stars": 1976,
+    "forks": 184,
+    "lang": "TypeScript",
     "license": "MIT",
-    "created": "2026-02-07T13:00:49Z",
-    "pushed": "2026-10-17T01:05:30Z",
+    "created": "2025-12-16T08:44:25Z",
+    "pushed": "2026-10-17T14:03:04Z",
     "topics": [
-     "ai-coding",
-     "macos",
-     "rust",
-     "serial",
-     "terminal",
-     "terminal-app",
-     "terminal-emulator",
-     "vibe-coding"
+     "ade",
+     "agent-ide",
+     "agent-orchestration",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "codex",
+     "coding-agent"
     ],
-    "category": "CLI",
-    "stars7d": 16
+    "category": "Agents",
+    "stars7d": 18
+   },
+   {
+    "name": "a5c-ai/babysitter",
+    "desc": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
+    "url": "https://github.com/a5c-ai/babysitter",
+    "homepage": "https://a5c.ai",
+    "stars": 1852,
+    "forks": 115,
+    "lang": "JavaScript",
+    "license": "MIT",
+    "created": "2026-01-05T15:26:53Z",
+    "pushed": "2026-09-16T19:59:50Z",
+    "topics": [
+     "agent-orchestration",
+     "agent-skills",
+     "agentic-ai",
+     "agentic-workflow",
+     "ai-agents",
+     "ai-automation",
+     "babysitter",
+     "claude-code"
+    ],
+    "category": "Agents",
+    "stars7d": 14
+   },
+   {
+    "name": "alchaincyf/fanbox",
+    "desc": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
+    "url": "https://github.com/alchaincyf/fanbox",
+    "homepage": "https://github.com/alchaincyf/fanbox/releases/latest",
+    "stars": 1033,
+    "forks": 148,
+    "lang": "JavaScript",
+    "license": "MIT",
+    "created": "2026-06-10T01:01:42Z",
+    "pushed": "2026-10-12T05:02:05Z",
+    "topics": [
+     "agent",
+     "ai",
+     "claude",
+     "codex",
+     "electron",
+     "file-manager",
+     "local-first",
+     "macos"
+    ],
+    "category": "Agents",
+    "stars7d": 14
    },
    {
     "name": "vicoa-ai/vicoa",
@@ -818,7 +914,7 @@
      "developer-tools"
     ],
     "category": "Agents",
-    "stars7d": 16
+    "stars7d": 13
    },
    {
     "name": "refly-ai/refly",
@@ -842,39 +938,37 @@
      "lark-bot"
     ],
     "category": "Agents",
-    "stars7d": 13
+    "stars7d": 12
    },
    {
-    "name": "happier-dev/happier",
-    "desc": "Web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
-    "url": "https://github.com/happier-dev/happier",
-    "homepage": "https://happier.dev",
-    "stars": 1971,
-    "forks": 183,
+    "name": "cloudflare/vibesdk",
+    "desc": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
+    "url": "https://github.com/cloudflare/vibesdk",
+    "homepage": "https://build.cloudflare.dev",
+    "stars": 5410,
+    "forks": 1279,
     "lang": "TypeScript",
     "license": "MIT",
-    "created": "2025-12-16T08:44:25Z",
-    "pushed": "2026-10-16T08:05:24Z",
+    "created": "2025-08-25T15:07:31Z",
+    "pushed": "2026-09-22T10:49:08Z",
     "topics": [
-     "ade",
-     "agent-ide",
-     "agent-orchestration",
-     "ai-agents",
-     "claude",
-     "claude-code",
-     "codex",
-     "coding-agent"
+     "ai",
+     "cloudflare-workers",
+     "coding-agent",
+     "durable-objects",
+     "text-to-app",
+     "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 13
+    "stars7d": 12
    },
    {
     "name": "metatool-ai/metamcp",
     "desc": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
     "url": "https://github.com/metatool-ai/metamcp",
     "homepage": "https://docs.metamcp.com",
-    "stars": 2710,
-    "forks": 443,
+    "stars": 2709,
+    "forks": 446,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-01-22T11:58:52Z",
@@ -890,73 +984,25 @@
      "mcp-tools"
     ],
     "category": "Agents",
-    "stars7d": 12
+    "stars7d": 11
    },
    {
-    "name": "a5c-ai/babysitter",
-    "desc": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
-    "url": "https://github.com/a5c-ai/babysitter",
-    "homepage": "https://a5c.ai",
-    "stars": 1850,
-    "forks": 115,
-    "lang": "JavaScript",
+    "name": "automazeio/ccpm",
+    "desc": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
+    "url": "https://github.com/automazeio/ccpm",
+    "homepage": "https://automaze.io",
+    "stars": 8411,
+    "forks": 851,
+    "lang": "Shell",
     "license": "MIT",
-    "created": "2026-01-05T15:26:53Z",
-    "pushed": "2026-09-16T19:59:50Z",
+    "created": "2025-08-18T23:20:08Z",
+    "pushed": "2026-03-18T12:15:24Z",
     "topics": [
-     "agent-orchestration",
-     "agent-skills",
-     "agentic-ai",
-     "agentic-workflow",
      "ai-agents",
-     "ai-automation",
-     "babysitter",
-     "claude-code"
-    ],
-    "category": "Agents",
-    "stars7d": 12
-   },
-   {
-    "name": "alchaincyf/fanbox",
-    "desc": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
-    "url": "https://github.com/alchaincyf/fanbox",
-    "homepage": "https://github.com/alchaincyf/fanbox/releases/latest",
-    "stars": 1030,
-    "forks": 149,
-    "lang": "JavaScript",
-    "license": "MIT",
-    "created": "2026-06-10T01:01:42Z",
-    "pushed": "2026-10-12T05:02:05Z",
-    "topics": [
-     "agent",
-     "ai",
+     "ai-coding",
      "claude",
-     "codex",
-     "electron",
-     "file-manager",
-     "local-first",
-     "macos"
-    ],
-    "category": "Agents",
-    "stars7d": 12
-   },
-   {
-    "name": "cloudflare/vibesdk",
-    "desc": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
-    "url": "https://github.com/cloudflare/vibesdk",
-    "homepage": "https://build.cloudflare.dev",
-    "stars": 5409,
-    "forks": 1278,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2025-08-25T15:07:31Z",
-    "pushed": "2026-09-22T10:49:08Z",
-    "topics": [
-     "ai",
-     "cloudflare-workers",
-     "coding-agent",
-     "durable-objects",
-     "text-to-app",
+     "claude-code",
+     "project-management",
      "vibe-coding"
     ],
     "category": "Agents",
@@ -984,26 +1030,47 @@
     "stars7d": 10
    },
    {
-    "name": "automazeio/ccpm",
-    "desc": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
-    "url": "https://github.com/automazeio/ccpm",
-    "homepage": "https://automaze.io",
-    "stars": 8412,
-    "forks": 846,
-    "lang": "Shell",
+    "name": "amantus-ai/vibetunnel",
+    "desc": "Turn any browser into your terminal & command your agents on the go.",
+    "url": "https://github.com/amantus-ai/vibetunnel",
+    "homepage": "https://vt.sh",
+    "stars": 4690,
+    "forks": 336,
+    "lang": "TypeScript",
     "license": "MIT",
-    "created": "2025-08-18T23:20:08Z",
-    "pushed": "2026-03-18T12:15:24Z",
+    "created": "2025-06-15T17:56:11Z",
+    "pushed": "2026-08-05T19:25:41Z",
     "topics": [
-     "ai-agents",
-     "ai-coding",
-     "claude",
-     "claude-code",
-     "project-management",
-     "vibe-coding"
+     "remote",
+     "terminal",
+     "vibecoding"
     ],
     "category": "Agents",
-    "stars7d": 9
+    "stars7d": 8
+   },
+   {
+    "name": "modu-ai/moai-adk",
+    "desc": "Agentic development harness for Claude Code — SPEC-driven plan/run/sync, TRUST 5 quality gates, model+effort routing, and Claude×GLM multi-LLM cost control. Single Go binary, 16 languages, zero deps.",
+    "url": "https://github.com/modu-ai/moai-adk",
+    "homepage": "https://adk.mo.ai.kr",
+    "stars": 1235,
+    "forks": 226,
+    "lang": "Go",
+    "license": "Apache-2.0",
+    "created": "2025-09-16T13:07:11Z",
+    "pushed": "2026-10-17T11:42:08Z",
+    "topics": [
+     "agentic-ai",
+     "agentic-coding",
+     "agentic-workflow",
+     "ai-agent",
+     "ai-coding",
+     "anthropic",
+     "claude",
+     "claude-code"
+    ],
+    "category": "Agents",
+    "stars7d": 8
    },
    {
     "name": "gnomeria/usbtree",
@@ -1027,30 +1094,6 @@
      "tui"
     ],
     "category": "CLI",
-    "stars7d": 9
-   },
-   {
-    "name": "modu-ai/moai-adk",
-    "desc": "Agentic development harness for Claude Code — SPEC-driven plan/run/sync, TRUST 5 quality gates, model+effort routing, and Claude×GLM multi-LLM cost control. Single Go binary, 16 languages, zero deps.",
-    "url": "https://github.com/modu-ai/moai-adk",
-    "homepage": "https://adk.mo.ai.kr",
-    "stars": 1234,
-    "forks": 226,
-    "lang": "Go",
-    "license": "Apache-2.0",
-    "created": "2025-09-16T13:07:11Z",
-    "pushed": "2026-10-17T01:09:39Z",
-    "topics": [
-     "agentic-ai",
-     "agentic-coding",
-     "agentic-workflow",
-     "ai-agent",
-     "ai-coding",
-     "anthropic",
-     "claude",
-     "claude-code"
-    ],
-    "category": "Agents",
     "stars7d": 8
    },
    {
@@ -1146,40 +1189,16 @@
     "stars7d": 7
    },
    {
-    "name": "Octane0411/open-vibe-island",
-    "desc": "Native macOS control center for AI coding agents — monitor sessions, approve actions, and jump back instantly.",
-    "url": "https://github.com/Octane0411/open-vibe-island",
-    "homepage": null,
-    "stars": 2047,
-    "forks": 352,
-    "lang": "Swift",
-    "license": "GPL-3.0",
-    "created": "2026-04-02T03:37:49Z",
-    "pushed": "2026-10-16T08:25:42Z",
-    "topics": [
-     "agent",
-     "claudecode",
-     "code-island",
-     "codeisland",
-     "codex",
-     "gemini-cli",
-     "island",
-     "open-island"
-    ],
-    "category": "Agents",
-    "stars7d": 7
-   },
-   {
     "name": "agent-sh/agentsys",
     "desc": "AI writes code. This automates everything else · 24 plugins · 49 agents · 44 skills · for Claude Code, OpenCode, Codex, Cursor, Kiro.",
     "url": "https://github.com/agent-sh/agentsys",
     "homepage": "https://agent-sh.github.io/agentsys/",
-    "stars": 1002,
-    "forks": 117,
+    "stars": 1003,
+    "forks": 118,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-01-15T09:33:05Z",
-    "pushed": "2026-10-15T20:55:16Z",
+    "pushed": "2026-10-17T10:10:24Z",
     "topics": [
      "agent",
      "ai",
@@ -1194,47 +1213,28 @@
     "stars7d": 7
    },
    {
-    "name": "amantus-ai/vibetunnel",
-    "desc": "Turn any browser into your terminal & command your agents on the go.",
-    "url": "https://github.com/amantus-ai/vibetunnel",
-    "homepage": "https://vt.sh",
-    "stars": 4688,
-    "forks": 336,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2025-06-15T17:56:11Z",
-    "pushed": "2026-08-05T19:25:41Z",
+    "name": "hovanhoa/cursor-free-vip",
+    "desc": "[Support 0.48.x]（Reset Cursor AI MachineID & Auto Sign Up / In & Bypass Higher Token Limit）自动注册 Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
+    "url": "https://github.com/hovanhoa/cursor-free-vip",
+    "homepage": null,
+    "stars": 709,
+    "forks": 174,
+    "lang": "Python",
+    "license": "NOASSERTION",
+    "created": "2025-12-23T07:01:58Z",
+    "pushed": "2026-01-05T16:39:14Z",
     "topics": [
-     "remote",
-     "terminal",
-     "vibecoding"
+     "automation",
+     "cursor",
+     "cursor-ai",
+     "cursor-free",
+     "cursor-free-vip",
+     "cursor-ide",
+     "cursorai",
+     "free"
     ],
-    "category": "Agents",
-    "stars7d": 6
-   },
-   {
-    "name": "zgsm-ai/costrict",
-    "desc": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion.",
-    "url": "https://github.com/zgsm-ai/costrict",
-    "homepage": "https://costrict.ai",
-    "stars": 4452,
-    "forks": 203,
-    "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2025-04-10T02:06:51Z",
-    "pushed": "2026-09-30T09:24:54Z",
-    "topics": [
-     "agent",
-     "ai",
-     "aicoding",
-     "claude",
-     "cline",
-     "cloud",
-     "coding",
-     "deepseek"
-    ],
-    "category": "Agents",
-    "stars7d": 6
+    "category": "Other",
+    "stars7d": 7
    },
    {
     "name": "stravu/crystal",
@@ -1261,25 +1261,25 @@
     "stars7d": 6
    },
    {
-    "name": "chaterm/Chaterm",
-    "desc": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
-    "url": "https://github.com/chaterm/Chaterm",
-    "homepage": "https://chaterm.ai",
-    "stars": 3095,
-    "forks": 297,
-    "lang": "TypeScript",
-    "license": "NOASSERTION",
-    "created": "2025-04-14T04:19:01Z",
-    "pushed": "2026-10-15T10:54:31Z",
+    "name": "Octane0411/open-vibe-island",
+    "desc": "Native macOS control center for AI coding agents — monitor sessions, approve actions, and jump back instantly.",
+    "url": "https://github.com/Octane0411/open-vibe-island",
+    "homepage": null,
+    "stars": 2048,
+    "forks": 352,
+    "lang": "Swift",
+    "license": "GPL-3.0",
+    "created": "2026-04-02T03:37:49Z",
+    "pushed": "2026-10-16T08:25:42Z",
     "topics": [
-     "aiagent",
-     "bastion",
-     "codex-cli",
-     "cursor",
-     "cyberark",
-     "devops",
-     "pam",
-     "putty"
+     "agent",
+     "claudecode",
+     "code-island",
+     "codeisland",
+     "codex",
+     "gemini-cli",
+     "island",
+     "open-island"
     ],
     "category": "Agents",
     "stars7d": 6
@@ -1289,8 +1289,8 @@
     "desc": "🏄🏼‍♂️ The blackboard for coding agents - agentic development environment for claude code, codex, cursor, opencode, grok and more.",
     "url": "https://github.com/fynnfluegge/agtx",
     "homepage": null,
-    "stars": 1714,
-    "forks": 149,
+    "stars": 1715,
+    "forks": 152,
     "lang": "Rust",
     "license": "Apache-2.0",
     "created": "2026-02-08T10:24:00Z",
@@ -1333,25 +1333,25 @@
     "stars7d": 6
    },
    {
-    "name": "bitjaru/styleseed",
-    "desc": "Open-source design-method engine for Claude Code, Codex & Cursor. 23 agent skills for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.",
-    "url": "https://github.com/bitjaru/styleseed",
-    "homepage": "https://styleseed-demo.vercel.app",
-    "stars": 978,
-    "forks": 90,
-    "lang": "JavaScript",
+    "name": "elirantutia/vibeyard",
+    "desc": "The IDE built for AI coding agents.",
+    "url": "https://github.com/elirantutia/vibeyard",
+    "homepage": null,
+    "stars": 1389,
+    "forks": 172,
+    "lang": "TypeScript",
     "license": "MIT",
-    "created": "2026-04-07T02:32:20Z",
-    "pushed": "2026-10-14T05:36:41Z",
+    "created": "2026-03-19T12:10:31Z",
+    "pushed": "2026-09-03T10:07:59Z",
     "topics": [
-     "agent-skills",
-     "ai-coding",
-     "ai-design",
-     "ai-ui",
+     "ai",
+     "cc",
+     "claude",
      "claude-code",
-     "claude-skills",
-     "codex",
-     "cursor"
+     "cli",
+     "developer-tools",
+     "electron",
+     "ide"
     ],
     "category": "Agents",
     "stars7d": 6
@@ -1381,30 +1381,6 @@
     "stars7d": 6
    },
    {
-    "name": "kwakseongjae/oh-my-design",
-    "desc": "Give your AI coding agent a design system. One command installs 500+ quality-graded company DESIGN.md references + skills into Claude Code, Codex, Cursor, and OpenCode. Free, MIT, zero AI calls.",
-    "url": "https://github.com/kwakseongjae/oh-my-design",
-    "homepage": "https://oh-my-design.kr",
-    "stars": 538,
-    "forks": 48,
-    "lang": "JavaScript",
-    "license": "MIT",
-    "created": "2026-04-13T09:57:10Z",
-    "pushed": "2026-10-16T18:02:28Z",
-    "topics": [
-     "cli",
-     "design-md",
-     "design-system",
-     "design-tokens",
-     "google-stitch",
-     "nextjs",
-     "open-source",
-     "react"
-    ],
-    "category": "Agents",
-    "stars7d": 6
-   },
-   {
     "name": "ErickWendel/erickwendel-contributions-mcp",
     "desc": "A Model Context Protocol (MCP) server that provides tools to query Erick Wendel's contributions across different platforms",
     "url": "https://github.com/ErickWendel/erickwendel-contributions-mcp",
@@ -1427,82 +1403,59 @@
     "stars7d": 6
    },
    {
-    "name": "elirantutia/vibeyard",
-    "desc": "The IDE built for AI coding agents.",
-    "url": "https://github.com/elirantutia/vibeyard",
-    "homepage": null,
-    "stars": 1387,
-    "forks": 172,
+    "name": "CherryHQ/cherry-studio",
+    "desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "homepage": "https://cherryai.com",
+    "stars": 52708,
+    "forks": 5078,
     "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2026-03-19T12:10:31Z",
-    "pushed": "2026-09-03T10:07:59Z",
+    "license": "AGPL-3.0",
+    "created": "2024-05-24T01:56:26Z",
+    "pushed": "2026-10-17T13:54:33Z",
     "topics": [
-     "ai",
-     "cc",
-     "claude",
+     "agent-skills",
+     "ai-agent",
      "claude-code",
-     "cli",
-     "developer-tools",
-     "electron",
-     "ide"
+     "codex",
+     "deepseek",
+     "hermes-agent",
+     "open-code-review",
+     "skills"
     ],
     "category": "Agents",
     "stars7d": 5
    },
    {
-    "name": "kbwo/ccmanager",
-    "desc": "Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / Cline CLI / OpenCode / Kimi CLI",
-    "url": "https://github.com/kbwo/ccmanager",
-    "homepage": null,
-    "stars": 1265,
-    "forks": 95,
+    "name": "chaterm/Chaterm",
+    "desc": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
+    "url": "https://github.com/chaterm/Chaterm",
+    "homepage": "https://chaterm.ai",
+    "stars": 3096,
+    "forks": 297,
     "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2025-06-07T12:41:22Z",
-    "pushed": "2026-10-15T14:12:14Z",
+    "license": "NOASSERTION",
+    "created": "2025-04-14T04:19:01Z",
+    "pushed": "2026-10-15T10:54:31Z",
     "topics": [
-     "claude",
-     "claude-code",
-     "cli",
-     "cline",
-     "codex",
-     "copilot",
-     "copilot-cli",
-     "cursor"
-    ],
-    "category": "Agents",
-    "stars7d": 5
-   },
-   {
-    "name": "hanshuaikang/nezha",
-    "desc": "Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine.",
-    "url": "https://github.com/hanshuaikang/nezha",
-    "homepage": "https://nezha.hanshutx.com/",
-    "stars": 1906,
-    "forks": 180,
-    "lang": "TypeScript",
-    "license": "GPL-3.0",
-    "created": "2026-03-22T15:13:11Z",
-    "pushed": "2026-09-17T15:32:45Z",
-    "topics": [
-     "ai",
-     "claude-code",
-     "codex",
+     "aiagent",
+     "bastion",
+     "codex-cli",
      "cursor",
-     "ide",
-     "vibe-coding",
-     "vibecoding"
+     "cyberark",
+     "devops",
+     "pam",
+     "putty"
     ],
     "category": "Agents",
-    "stars7d": 4
+    "stars7d": 5
    },
    {
     "name": "nextify-limited/libra",
     "desc": "The open-source V0/Lovable alternative",
     "url": "https://github.com/nextify-limited/libra",
     "homepage": "https://libra.dev",
-    "stars": 1686,
+    "stars": 1687,
     "forks": 277,
     "lang": "TypeScript",
     "license": "AGPL-3.0",
@@ -1518,6 +1471,195 @@
      "web-coding"
     ],
     "category": "Sites",
+    "stars7d": 5
+   },
+   {
+    "name": "LodyAI/Lody",
+    "desc": "Share coding agents with your team on phone and desktop",
+    "url": "https://github.com/LodyAI/Lody",
+    "homepage": "https://lody.ai",
+    "stars": 1427,
+    "forks": 154,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2026-08-07T02:09:16Z",
+    "pushed": "2026-10-17T13:46:36Z",
+    "topics": [
+     "agent",
+     "agentic-workflow",
+     "coding-agent",
+     "collaboration",
+     "local-first",
+     "multi-agent",
+     "multiplayer",
+     "orchestration"
+    ],
+    "category": "Agents",
+    "stars7d": 5
+   },
+   {
+    "name": "kbwo/ccmanager",
+    "desc": "Coding Agent Session Manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / Cline CLI / OpenCode / Kimi CLI",
+    "url": "https://github.com/kbwo/ccmanager",
+    "homepage": null,
+    "stars": 1265,
+    "forks": 95,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2025-06-07T12:41:22Z",
+    "pushed": "2026-10-17T08:47:43Z",
+    "topics": [
+     "claude",
+     "claude-code",
+     "cli",
+     "cline",
+     "codex",
+     "copilot",
+     "copilot-cli",
+     "cursor"
+    ],
+    "category": "Agents",
+    "stars7d": 5
+   },
+   {
+    "name": "mohi-devhub/antivibe",
+    "desc": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
+    "url": "https://github.com/mohi-devhub/antivibe",
+    "homepage": null,
+    "stars": 1123,
+    "forks": 85,
+    "lang": "Shell",
+    "license": "MIT",
+    "created": "2026-04-10T18:07:20Z",
+    "pushed": "2026-07-31T10:26:47Z",
+    "topics": [
+     "ai",
+     "claude-code",
+     "claude-code-skill",
+     "code-explanation",
+     "education",
+     "learning",
+     "vibecoding"
+    ],
+    "category": "Other",
+    "stars7d": 5
+   },
+   {
+    "name": "bitjaru/styleseed",
+    "desc": "Open-source design-method engine for Claude Code, Codex & Cursor. 23 agent skills for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.",
+    "url": "https://github.com/bitjaru/styleseed",
+    "homepage": "https://styleseed-demo.vercel.app",
+    "stars": 978,
+    "forks": 90,
+    "lang": "JavaScript",
+    "license": "MIT",
+    "created": "2026-04-07T02:32:20Z",
+    "pushed": "2026-10-14T05:36:41Z",
+    "topics": [
+     "agent-skills",
+     "ai-coding",
+     "ai-design",
+     "ai-ui",
+     "claude-code",
+     "claude-skills",
+     "codex",
+     "cursor"
+    ],
+    "category": "Agents",
+    "stars7d": 5
+   },
+   {
+    "name": "49-Agents/49-IDE",
+    "desc": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a cluster via Tailscale OR connect to app.49agents.com (coming soon)",
+    "url": "https://github.com/49-Agents/49-IDE",
+    "homepage": "https://49agents.com",
+    "stars": 627,
+    "forks": 68,
+    "lang": "JavaScript",
+    "license": "NOASSERTION",
+    "created": "2026-02-27T02:28:57Z",
+    "pushed": "2026-10-01T23:36:55Z",
+    "topics": [
+     "claude-code",
+     "cli",
+     "codex",
+     "ide",
+     "terminal-based",
+     "vibecoding"
+    ],
+    "category": "Agents",
+    "stars7d": 5
+   },
+   {
+    "name": "kwakseongjae/oh-my-design",
+    "desc": "Give your AI coding agent a design system. One command installs 500+ quality-graded company DESIGN.md references + skills into Claude Code, Codex, Cursor, and OpenCode. Free, MIT, zero AI calls.",
+    "url": "https://github.com/kwakseongjae/oh-my-design",
+    "homepage": "https://oh-my-design.kr",
+    "stars": 538,
+    "forks": 48,
+    "lang": "JavaScript",
+    "license": "MIT",
+    "created": "2026-04-13T09:57:10Z",
+    "pushed": "2026-10-16T18:02:28Z",
+    "topics": [
+     "cli",
+     "design-md",
+     "design-system",
+     "design-tokens",
+     "google-stitch",
+     "nextjs",
+     "open-source",
+     "react"
+    ],
+    "category": "Agents",
+    "stars7d": 5
+   },
+   {
+    "name": "zgsm-ai/costrict",
+    "desc": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion.",
+    "url": "https://github.com/zgsm-ai/costrict",
+    "homepage": "https://costrict.ai",
+    "stars": 4451,
+    "forks": 203,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2025-04-10T02:06:51Z",
+    "pushed": "2026-09-30T09:24:54Z",
+    "topics": [
+     "agent",
+     "ai",
+     "aicoding",
+     "claude",
+     "cline",
+     "cloud",
+     "coding",
+     "deepseek"
+    ],
+    "category": "Agents",
+    "stars7d": 4
+   },
+   {
+    "name": "MiniMax-AI/OpenRoom",
+    "desc": "A browser-based desktop where AI Agent operates every app through natural language.",
+    "url": "https://github.com/MiniMax-AI/OpenRoom",
+    "homepage": "https://www.openroom.ai",
+    "stars": 1270,
+    "forks": 168,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2026-03-03T04:01:01Z",
+    "pushed": "2026-06-03T23:15:42Z",
+    "topics": [
+     "ai-agent",
+     "browser",
+     "desktop",
+     "micro-frontend",
+     "minimax",
+     "natural-language",
+     "open-source",
+     "react"
+    ],
+    "category": "Agents",
     "stars7d": 4
    },
    {
@@ -1549,7 +1691,7 @@
     "desc": "Turn any repo into an agent-ready workspace for Claude Code, Codex, Cursor, and other coding agents.",
     "url": "https://github.com/hoangnb24/repository-harness",
     "homepage": null,
-    "stars": 1246,
+    "stars": 1245,
     "forks": 441,
     "lang": "Rust",
     "license": "MIT",
@@ -1569,26 +1711,27 @@
     "stars7d": 4
    },
    {
-    "name": "mohi-devhub/antivibe",
-    "desc": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
-    "url": "https://github.com/mohi-devhub/antivibe",
-    "homepage": null,
-    "stars": 1122,
-    "forks": 83,
-    "lang": "Shell",
-    "license": "MIT",
-    "created": "2026-04-10T18:07:20Z",
-    "pushed": "2026-07-31T10:26:47Z",
+    "name": "kdlbs/kandev",
+    "desc": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
+    "url": "https://github.com/kdlbs/kandev",
+    "homepage": "https://kandev.ai",
+    "stars": 963,
+    "forks": 156,
+    "lang": "Go",
+    "license": "AGPL-3.0",
+    "created": "2026-01-09T23:26:53Z",
+    "pushed": "2026-10-17T10:24:08Z",
     "topics": [
-     "ai",
+     "acp",
+     "agent-orchestration",
+     "agentic-ai",
+     "agentic-development-environment",
+     "ai-agents",
      "claude-code",
-     "claude-code-skill",
-     "code-explanation",
-     "education",
-     "learning",
-     "vibecoding"
+     "code-review",
+     "coding-agents"
     ],
-    "category": "Other",
+    "category": "Agents",
     "stars7d": 4
    },
    {
@@ -1596,7 +1739,7 @@
     "desc": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
     "url": "https://github.com/freestylefly/wesight",
     "homepage": "https://wesight.ai",
-    "stars": 950,
+    "stars": 951,
     "forks": 208,
     "lang": "TypeScript",
     "license": "MIT",
@@ -1616,58 +1759,12 @@
     "stars7d": 4
    },
    {
-    "name": "hovanhoa/cursor-free-vip",
-    "desc": "[Support 0.48.x]（Reset Cursor AI MachineID & Auto Sign Up / In & Bypass Higher Token Limit）自动注册 Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
-    "url": "https://github.com/hovanhoa/cursor-free-vip",
-    "homepage": null,
-    "stars": 706,
-    "forks": 172,
-    "lang": "Python",
-    "license": "NOASSERTION",
-    "created": "2025-12-23T07:01:58Z",
-    "pushed": "2026-01-05T16:39:14Z",
-    "topics": [
-     "automation",
-     "cursor",
-     "cursor-ai",
-     "cursor-free",
-     "cursor-free-vip",
-     "cursor-ide",
-     "cursorai",
-     "free"
-    ],
-    "category": "Other",
-    "stars7d": 4
-   },
-   {
-    "name": "49-Agents/49-IDE",
-    "desc": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a cluster via Tailscale OR connect to app.49agents.com (coming soon)",
-    "url": "https://github.com/49-Agents/49-IDE",
-    "homepage": "https://49agents.com",
-    "stars": 626,
-    "forks": 67,
-    "lang": "JavaScript",
-    "license": "NOASSERTION",
-    "created": "2026-02-27T02:28:57Z",
-    "pushed": "2026-10-01T23:36:55Z",
-    "topics": [
-     "claude-code",
-     "cli",
-     "codex",
-     "ide",
-     "terminal-based",
-     "vibecoding"
-    ],
-    "category": "Agents",
-    "stars7d": 4
-   },
-   {
     "name": "shanraisshan/claude-code-hooks",
     "desc": "claude code hooks - adding voice on each hook",
     "url": "https://github.com/shanraisshan/claude-code-hooks",
     "homepage": "https://www.linkedin.com/in/shanraisshan/",
     "stars": 558,
-    "forks": 62,
+    "forks": 64,
     "lang": "HTML",
     "license": "MIT",
     "created": "2025-11-05T08:06:15Z",
@@ -1681,6 +1778,30 @@
      "ai-agents",
      "anthropic",
      "claude"
+    ],
+    "category": "Agents",
+    "stars7d": 4
+   },
+   {
+    "name": "vibeeval/vibecosystem",
+    "desc": "AI software team for Claude Code - 138 agents, 295 skills, 73 hooks. Self-learning, multi-agent swarm, autonomous skill evolution.",
+    "url": "https://github.com/vibeeval/vibecosystem",
+    "homepage": null,
+    "stars": 537,
+    "forks": 47,
+    "lang": "C#",
+    "license": "MIT",
+    "created": "2026-03-14T11:57:55Z",
+    "pushed": "2026-08-08T19:58:01Z",
+    "topics": [
+     "ai-agents",
+     "ai-software-team",
+     "anthropic",
+     "automation",
+     "claude",
+     "claude-code",
+     "claude-skills",
+     "developer-tools"
     ],
     "category": "Agents",
     "stars7d": 4
@@ -1710,40 +1831,40 @@
     "stars7d": 4
    },
    {
-    "name": "CherryHQ/cherry-studio",
-    "desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "homepage": "https://cherryai.com",
-    "stars": 52691,
-    "forks": 5078,
-    "lang": "TypeScript",
-    "license": "AGPL-3.0",
-    "created": "2024-05-24T01:56:26Z",
-    "pushed": "2026-10-17T00:42:46Z",
+    "name": "timwuhaotian/the-pair",
+    "desc": "Open-source AI pair programming for desktop: a Mentor + Executor agent cross-check each other's code to catch AI hallucinations. Works with Claude Code, Codex, Gemini & opencode. macOS / Windows / Linux.",
+    "url": "https://github.com/timwuhaotian/the-pair",
+    "homepage": "https://apps.timwuhaotian.dev/",
+    "stars": 383,
+    "forks": 30,
+    "lang": "Rust",
+    "license": "Apache-2.0",
+    "created": "2026-03-22T18:38:00Z",
+    "pushed": "2026-10-17T14:01:11Z",
     "topics": [
-     "agent-skills",
-     "ai-agent",
+     "ai",
+     "ai-agents",
+     "ai-code-review",
      "claude-code",
      "codex",
-     "deepseek",
-     "hermes-agent",
-     "open-code-review",
-     "skills"
+     "codex-cli",
+     "developer-tools",
+     "gemini"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 4
    },
    {
     "name": "agent-of-empires/agent-of-empires",
     "desc": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
     "url": "https://github.com/agent-of-empires/agent-of-empires",
     "homepage": "http://www.agent-of-empires.com/",
-    "stars": 3362,
-    "forks": 382,
+    "stars": 3363,
+    "forks": 384,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-01-09T17:23:31Z",
-    "pushed": "2026-10-16T22:22:40Z",
+    "pushed": "2026-10-17T06:47:51Z",
     "topics": [
      "ai-coding",
      "claude",
@@ -1758,73 +1879,47 @@
     "stars7d": 3
    },
    {
-    "name": "LodyAI/Lody",
-    "desc": "Share coding agents with your team on phone and desktop",
-    "url": "https://github.com/LodyAI/Lody",
-    "homepage": "https://lody.ai",
-    "stars": 1424,
-    "forks": 153,
+    "name": "hanshuaikang/nezha",
+    "desc": "Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine.",
+    "url": "https://github.com/hanshuaikang/nezha",
+    "homepage": "https://nezha.hanshutx.com/",
+    "stars": 1906,
+    "forks": 180,
     "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2026-08-07T02:09:16Z",
-    "pushed": "2026-10-17T00:06:35Z",
+    "license": "GPL-3.0",
+    "created": "2026-03-22T15:13:11Z",
+    "pushed": "2026-09-17T15:32:45Z",
     "topics": [
-     "agent",
-     "agentic-workflow",
-     "coding-agent",
-     "collaboration",
-     "local-first",
-     "multi-agent",
-     "multiplayer",
-     "orchestration"
-    ],
-    "category": "Agents",
-    "stars7d": 3
-   },
-   {
-    "name": "MiniMax-AI/OpenRoom",
-    "desc": "A browser-based desktop where AI Agent operates every app through natural language.",
-    "url": "https://github.com/MiniMax-AI/OpenRoom",
-    "homepage": "https://www.openroom.ai",
-    "stars": 1269,
-    "forks": 168,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2026-03-03T04:01:01Z",
-    "pushed": "2026-06-03T23:15:42Z",
-    "topics": [
-     "ai-agent",
-     "browser",
-     "desktop",
-     "micro-frontend",
-     "minimax",
-     "natural-language",
-     "open-source",
-     "react"
-    ],
-    "category": "Agents",
-    "stars7d": 3
-   },
-   {
-    "name": "bgauryy/octocode",
-    "desc": "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. One toolset, MCP or CLI",
-    "url": "https://github.com/bgauryy/octocode",
-    "homepage": "https://octocode.ai/",
-    "stars": 950,
-    "forks": 78,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2025-06-05T13:56:40Z",
-    "pushed": "2026-10-15T13:45:13Z",
-    "topics": [
-     "agent",
      "ai",
-     "ai-agents",
-     "ai-tools",
-     "claude-ai",
-     "code-intelligence",
-     "code-search",
-     "context"
+     "claude-code",
+     "codex",
+     "cursor",
+     "ide",
+     "vibe-coding",
+     "vibecoding"
+    ],
+    "category": "Agents",
+    "stars7d": 3
+   },
+   {
+    "name": "erha19/ping-island",
+    "desc": "A Dynamic Island-style command center for managing all your AI coding agents on macOS.",
+    "url": "https://github.com/erha19/ping-island",
+    "homepage": "https://erha19.github.io/ping-island/",
+    "stars": 1130,
+    "forks": 127,
+    "lang": "Swift",
+    "license": "Apache-2.0",
+    "created": "2026-04-03T14:22:16Z",
+    "pushed": "2026-10-15T11:22:23Z",
+    "topics": [
+     "agents",
+     "claude-code",
+     "codex",
+     "island",
+     "vibe",
+     "vibe-coding",
+     "vibe-island"
     ],
     "category": "Agents",
     "stars7d": 3
@@ -1854,49 +1949,25 @@
     "stars7d": 3
    },
    {
-    "name": "vibeeval/vibecosystem",
-    "desc": "AI software team for Claude Code - 138 agents, 295 skills, 73 hooks. Self-learning, multi-agent swarm, autonomous skill evolution.",
-    "url": "https://github.com/vibeeval/vibecosystem",
+    "name": "microsoft/RPG-ZeroRepo",
+    "desc": "[ICLR 2026] RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation",
+    "url": "https://github.com/microsoft/RPG-ZeroRepo",
     "homepage": null,
-    "stars": 536,
-    "forks": 46,
-    "lang": "C#",
-    "license": "MIT",
-    "created": "2026-03-14T11:57:55Z",
-    "pushed": "2026-08-08T19:58:01Z",
-    "topics": [
-     "ai-agents",
-     "ai-software-team",
-     "anthropic",
-     "automation",
-     "claude",
-     "claude-code",
-     "claude-skills",
-     "developer-tools"
-    ],
-    "category": "Agents",
-    "stars7d": 3
-   },
-   {
-    "name": "JetBrains/thinkrail",
-    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-    "url": "https://github.com/JetBrains/thinkrail",
-    "homepage": "https://thinkrail.ai/",
-    "stars": 520,
+    "stars": 553,
     "forks": 43,
-    "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2026-07-08T07:40:43Z",
-    "pushed": "2026-10-16T21:18:07Z",
+    "lang": "Python",
+    "license": "MIT",
+    "created": "2025-11-26T07:59:18Z",
+    "pushed": "2026-10-10T04:17:18Z",
     "topics": [
      "agent",
-     "agent-skills",
-     "agentic-ai",
-     "agentic-workflow",
-     "ai-coding",
-     "ai-tools",
-     "pi-agent",
-     "pi-agent-extension"
+     "application",
+     "iclr",
+     "llm",
+     "memory",
+     "software-engineering",
+     "sota",
+     "swe"
     ],
     "category": "Agents",
     "stars7d": 3
@@ -1921,30 +1992,6 @@
      "mcp",
      "skills",
      "vibe-coding"
-    ],
-    "category": "Agents",
-    "stars7d": 3
-   },
-   {
-    "name": "timwuhaotian/the-pair",
-    "desc": "Open-source AI pair programming for desktop: a Mentor + Executor agent cross-check each other's code to catch AI hallucinations. Works with Claude Code, Codex, Gemini & opencode. macOS / Windows / Linux.",
-    "url": "https://github.com/timwuhaotian/the-pair",
-    "homepage": "https://apps.timwuhaotian.dev/",
-    "stars": 382,
-    "forks": 30,
-    "lang": "Rust",
-    "license": "Apache-2.0",
-    "created": "2026-03-22T18:38:00Z",
-    "pushed": "2026-10-15T14:48:46Z",
-    "topics": [
-     "ai",
-     "ai-agents",
-     "ai-code-review",
-     "claude-code",
-     "codex",
-     "codex-cli",
-     "developer-tools",
-     "gemini"
     ],
     "category": "Agents",
     "stars7d": 3
@@ -1996,30 +2043,6 @@
     "stars7d": 2
    },
    {
-    "name": "spec-kitty/spec-kitty",
-    "desc": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.",
-    "url": "https://github.com/spec-kitty/spec-kitty",
-    "homepage": "https://spec-kitty.ai",
-    "stars": 1687,
-    "forks": 182,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2025-10-09T12:29:47Z",
-    "pushed": "2026-10-16T20:47:03Z",
-    "topics": [
-     "agentic-coding",
-     "ai-agents",
-     "ai-coding-workflow",
-     "ai-development-dashboard",
-     "ai-progress-tracking",
-     "ai-workflow",
-     "claude-code",
-     "code-workflow"
-    ],
-    "category": "Agents",
-    "stars7d": 2
-   },
-   {
     "name": "DeepMyst/Mysti",
     "desc": "AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in brainstorm mode, debate solutions, and synthesize the best approach for your code.",
     "url": "https://github.com/DeepMyst/Mysti",
@@ -2053,7 +2076,7 @@
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-05-23T08:31:26Z",
-    "pushed": "2026-10-17T00:49:06Z",
+    "pushed": "2026-10-17T14:01:59Z",
     "topics": [
      "agent-skills",
      "ai",
@@ -2068,48 +2091,25 @@
     "stars7d": 2
    },
    {
-    "name": "erha19/ping-island",
-    "desc": "A Dynamic Island-style command center for managing all your AI coding agents on macOS.",
-    "url": "https://github.com/erha19/ping-island",
-    "homepage": "https://erha19.github.io/ping-island/",
-    "stars": 1129,
-    "forks": 127,
-    "lang": "Swift",
-    "license": "Apache-2.0",
-    "created": "2026-04-03T14:22:16Z",
-    "pushed": "2026-10-15T11:22:23Z",
+    "name": "bgauryy/octocode",
+    "desc": "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. One toolset, MCP or CLI",
+    "url": "https://github.com/bgauryy/octocode",
+    "homepage": "https://octocode.ai/",
+    "stars": 950,
+    "forks": 78,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2025-06-05T13:56:40Z",
+    "pushed": "2026-10-17T10:41:30Z",
     "topics": [
-     "agents",
-     "claude-code",
-     "codex",
-     "island",
-     "vibe",
-     "vibe-coding",
-     "vibe-island"
-    ],
-    "category": "Agents",
-    "stars7d": 2
-   },
-   {
-    "name": "kdlbs/kandev",
-    "desc": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
-    "url": "https://github.com/kdlbs/kandev",
-    "homepage": "https://kandev.ai",
-    "stars": 959,
-    "forks": 156,
-    "lang": "Go",
-    "license": "AGPL-3.0",
-    "created": "2026-01-09T23:26:53Z",
-    "pushed": "2026-10-16T17:06:42Z",
-    "topics": [
-     "acp",
-     "agent-orchestration",
-     "agentic-ai",
-     "agentic-development-environment",
+     "agent",
+     "ai",
      "ai-agents",
-     "claude-code",
-     "code-review",
-     "coding-agents"
+     "ai-tools",
+     "claude-ai",
+     "code-intelligence",
+     "code-search",
+     "context"
     ],
     "category": "Agents",
     "stars7d": 2
@@ -2136,54 +2136,6 @@
      "claude-skills"
     ],
     "category": "Agents",
-    "stars7d": 2
-   },
-   {
-    "name": "microsoft/RPG-ZeroRepo",
-    "desc": "[ICLR 2026] RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation",
-    "url": "https://github.com/microsoft/RPG-ZeroRepo",
-    "homepage": null,
-    "stars": 553,
-    "forks": 43,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2025-11-26T07:59:18Z",
-    "pushed": "2026-10-10T04:17:18Z",
-    "topics": [
-     "agent",
-     "application",
-     "iclr",
-     "llm",
-     "memory",
-     "software-engineering",
-     "sota",
-     "swe"
-    ],
-    "category": "Agents",
-    "stars7d": 2
-   },
-   {
-    "name": "bscott/subtrackr",
-    "desc": "Self-hosted Subscription Tracker",
-    "url": "https://github.com/bscott/subtrackr",
-    "homepage": "https://subtrackr.xyz/",
-    "stars": 475,
-    "forks": 27,
-    "lang": "Go",
-    "license": "AGPL-3.0",
-    "created": "2025-06-21T03:03:04Z",
-    "pushed": "2026-10-16T05:54:30Z",
-    "topics": [
-     "finance",
-     "finance-management",
-     "go",
-     "homelab",
-     "htmx",
-     "selfhosted",
-     "subscription",
-     "tracking"
-    ],
-    "category": "Other",
     "stars7d": 2
    },
    {
@@ -2235,24 +2187,27 @@
     "stars7d": 1
    },
    {
-    "name": "NVlabs/vibetensor",
-    "desc": "Our first fully AI generated deep learning system",
-    "url": "https://github.com/NVlabs/vibetensor",
-    "homepage": "https://arxiv.org/abs/2601.16238",
-    "stars": 642,
-    "forks": 50,
+    "name": "avibe-bot/avibe",
+    "desc": "The local-first Agent OS — your AI partner lives on your own machine. Drive the official Claude Code, Codex & OpenCode from your browser or any chat app.",
+    "url": "https://github.com/avibe-bot/avibe",
+    "homepage": "https://avibe.bot",
+    "stars": 626,
+    "forks": 99,
     "lang": "Python",
-    "license": "Apache-2.0",
-    "created": "2026-01-05T03:19:03Z",
-    "pushed": "2026-02-02T15:42:58Z",
+    "license": "MIT",
+    "created": "2025-08-09T14:04:57Z",
+    "pushed": "2026-10-17T11:07:31Z",
     "topics": [
-     "cuda",
-     "cutlass",
-     "machine-learning",
-     "pytorch",
-     "vibe-coding"
+     "agent",
+     "agent-os",
+     "ai",
+     "ai-agents",
+     "chatops",
+     "claude",
+     "claude-code",
+     "codex"
     ],
-    "category": "Other",
+    "category": "Agents",
     "stars7d": 1
    },
    {
@@ -2324,27 +2279,27 @@
     "stars7d": 1
    },
    {
-    "name": "PV-Bhat/vibe-check-mcp-server",
-    "desc": "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks",
-    "url": "https://github.com/PV-Bhat/vibe-check-mcp-server",
-    "homepage": "https://pruthvibhat.com/",
-    "stars": 501,
-    "forks": 67,
-    "lang": "TypeScript",
-    "license": "MIT",
-    "created": "2025-03-22T09:33:08Z",
-    "pushed": "2026-09-29T20:38:23Z",
+    "name": "bscott/subtrackr",
+    "desc": "Self-hosted Subscription Tracker",
+    "url": "https://github.com/bscott/subtrackr",
+    "homepage": "https://subtrackr.xyz/",
+    "stars": 474,
+    "forks": 27,
+    "lang": "Go",
+    "license": "AGPL-3.0",
+    "created": "2025-06-21T03:03:04Z",
+    "pushed": "2026-10-16T05:54:30Z",
     "topics": [
-     "agentic-ai",
-     "agentic-workflow",
-     "ai-agents",
-     "chain-of-thought",
-     "cpi",
-     "error-handling",
-     "mcp",
-     "mcp-server"
+     "finance",
+     "finance-management",
+     "go",
+     "homelab",
+     "htmx",
+     "selfhosted",
+     "subscription",
+     "tracking"
     ],
-    "category": "Agents",
+    "category": "Other",
     "stars7d": 1
    },
    {
@@ -2395,6 +2350,30 @@
     "stars7d": 1
    },
    {
+    "name": "spec-kitty/spec-kitty",
+    "desc": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.",
+    "url": "https://github.com/spec-kitty/spec-kitty",
+    "homepage": "https://spec-kitty.ai",
+    "stars": 1687,
+    "forks": 182,
+    "lang": "Python",
+    "license": "MIT",
+    "created": "2025-10-09T12:29:47Z",
+    "pushed": "2026-10-17T13:50:38Z",
+    "topics": [
+     "agentic-coding",
+     "ai-agents",
+     "ai-coding-workflow",
+     "ai-development-dashboard",
+     "ai-progress-tracking",
+     "ai-workflow",
+     "claude-code",
+     "code-workflow"
+    ],
+    "category": "Agents",
+    "stars7d": 0
+   },
+   {
     "name": "andrepimenta/claude-code-chat",
     "desc": "Beautiful Claude Code Chat Interface for VS Code",
     "url": "https://github.com/andrepimenta/claude-code-chat",
@@ -2422,12 +2401,12 @@
     "desc": "Zephyr: A modern, lightweight, and secure Mihomo / Clash Meta GUI client built with Tauri and Rust.",
     "url": "https://github.com/Juwan-Hwang/Zephyr",
     "homepage": "https://juwan-hwang.github.io/Zephyr/",
-    "stars": 720,
+    "stars": 722,
     "forks": 39,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-03-30T20:53:12Z",
-    "pushed": "2026-10-17T00:45:18Z",
+    "pushed": "2026-10-17T13:47:18Z",
     "topics": [
      "clash",
      "clash-meta",
@@ -2481,6 +2460,27 @@
     "stars7d": 0
    },
    {
+    "name": "NVlabs/vibetensor",
+    "desc": "Our first fully AI generated deep learning system",
+    "url": "https://github.com/NVlabs/vibetensor",
+    "homepage": "https://arxiv.org/abs/2601.16238",
+    "stars": 642,
+    "forks": 50,
+    "lang": "Python",
+    "license": "Apache-2.0",
+    "created": "2026-01-05T03:19:03Z",
+    "pushed": "2026-02-02T15:42:58Z",
+    "topics": [
+     "cuda",
+     "cutlass",
+     "machine-learning",
+     "pytorch",
+     "vibe-coding"
+    ],
+    "category": "Other",
+    "stars7d": 0
+   },
+   {
     "name": "chrishutchinson/claude-receipts",
     "desc": "Bring receipts from your Claude Code sessions",
     "url": "https://github.com/chrishutchinson/claude-receipts",
@@ -2520,30 +2520,6 @@
      "vibe-coding"
     ],
     "category": "Other",
-    "stars7d": 0
-   },
-   {
-    "name": "avibe-bot/avibe",
-    "desc": "The local-first Agent OS — your AI partner lives on your own machine. Drive the official Claude Code, Codex & OpenCode from your browser or any chat app.",
-    "url": "https://github.com/avibe-bot/avibe",
-    "homepage": "https://avibe.bot",
-    "stars": 625,
-    "forks": 99,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2025-08-09T14:04:57Z",
-    "pushed": "2026-10-17T01:06:26Z",
-    "topics": [
-     "agent",
-     "agent-os",
-     "ai",
-     "ai-agents",
-     "chatops",
-     "claude",
-     "claude-code",
-     "codex"
-    ],
-    "category": "Agents",
     "stars7d": 0
    },
    {
@@ -2590,6 +2566,30 @@
      "debug",
      "debugging",
      "debugging-tool"
+    ],
+    "category": "Agents",
+    "stars7d": 0
+   },
+   {
+    "name": "PV-Bhat/vibe-check-mcp-server",
+    "desc": "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks",
+    "url": "https://github.com/PV-Bhat/vibe-check-mcp-server",
+    "homepage": "https://pruthvibhat.com/",
+    "stars": 501,
+    "forks": 67,
+    "lang": "TypeScript",
+    "license": "MIT",
+    "created": "2025-03-22T09:33:08Z",
+    "pushed": "2026-10-17T09:47:45Z",
+    "topics": [
+     "agentic-ai",
+     "agentic-workflow",
+     "ai-agents",
+     "chain-of-thought",
+     "cpi",
+     "error-handling",
+     "mcp",
+     "mcp-server"
     ],
     "category": "Agents",
     "stars7d": 0
@@ -2670,7 +2670,7 @@
     "lang": "Go",
     "license": "MIT",
     "created": "2025-10-28T13:15:30Z",
-    "pushed": "2026-09-22T22:20:25Z",
+    "pushed": "2026-10-17T12:39:33Z",
     "topics": [
      "claude",
      "claudecode",
@@ -2750,7 +2750,7 @@
     "desc": "Unified Agent Gateway — Enables Claude Code CLI and Cursor IDE to use free AI backends (Antigravity, Codex) through protocol translation",
     "url": "https://github.com/funny-vibes/agent-vibes",
     "homepage": null,
-    "stars": 360,
+    "stars": 359,
     "forks": 75,
     "lang": "TypeScript",
     "license": "MIT",
@@ -2820,12 +2820,12 @@
     "desc": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
     "url": "https://github.com/nexu-io/open-design",
     "homepage": "https://open-design.ai",
-    "stars": 101634,
-    "forks": 11682,
+    "stars": 101830,
+    "forks": 11700,
     "lang": "TypeScript",
     "license": "Apache-2.0",
     "created": "2026-04-28T04:25:20Z",
-    "pushed": "2026-10-16T23:17:26Z",
+    "pushed": "2026-10-17T10:08:25Z",
     "topics": [
      "agent-skills",
      "ai-design",
@@ -2837,15 +2837,15 @@
      "cursor-design"
     ],
     "category": "Agents",
-    "stars7d": 111
+    "stars7d": 170
    },
    {
     "name": "Egonex-AI/Understand-Anything",
     "desc": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "url": "https://github.com/Egonex-AI/Understand-Anything",
     "homepage": "https://understand-anything.com/",
-    "stars": 86653,
-    "forks": 7302,
+    "stars": 86732,
+    "forks": 7311,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-03-15T02:30:51Z",
@@ -2861,19 +2861,19 @@
      "developer-tools-ai-agent"
     ],
     "category": "Agents",
-    "stars7d": 276
+    "stars7d": 268
    },
    {
     "name": "upstash/context7",
     "desc": "Context7 Platform -- Up-to-date docs for AI agents",
     "url": "https://github.com/upstash/context7",
     "homepage": "https://context7.com",
-    "stars": 63161,
-    "forks": 3103,
+    "stars": 63187,
+    "forks": 3106,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-03-26T23:40:39Z",
-    "pushed": "2026-10-16T14:31:37Z",
+    "pushed": "2026-10-17T02:03:24Z",
     "topics": [
      "llm",
      "mcp",
@@ -2881,19 +2881,19 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 123
+    "stars7d": 125
    },
    {
     "name": "CherryHQ/cherry-studio",
     "desc": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "homepage": "https://cherryai.com",
-    "stars": 52691,
+    "stars": 52708,
     "forks": 5078,
     "lang": "TypeScript",
     "license": "AGPL-3.0",
     "created": "2024-05-24T01:56:26Z",
-    "pushed": "2026-10-17T00:42:46Z",
+    "pushed": "2026-10-17T13:54:33Z",
     "topics": [
      "agent-skills",
      "ai-agent",
@@ -2905,19 +2905,19 @@
      "skills"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 5
    },
    {
     "name": "Yeachan-Heo/oh-my-claudecode",
     "desc": "Teams-first Multi-agent orchestration for Claude Code",
     "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
     "homepage": "https://oh-my-claudecode.dev",
-    "stars": 39976,
+    "stars": 39996,
     "forks": 3586,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-01-09T03:36:29Z",
-    "pushed": "2026-10-16T21:43:44Z",
+    "pushed": "2026-10-17T13:23:58Z",
     "topics": [
      "agentic-coding",
      "ai-agents",
@@ -2929,15 +2929,15 @@
      "opencode"
     ],
     "category": "Agents",
-    "stars7d": 31
+    "stars7d": 44
    },
    {
     "name": "zarazhangrui/frontend-slides",
     "desc": "Create beautiful slides on the web using a coding agent's frontend skills",
     "url": "https://github.com/zarazhangrui/frontend-slides",
     "homepage": null,
-    "stars": 30773,
-    "forks": 2384,
+    "stars": 30801,
+    "forks": 2385,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-01-28T00:42:34Z",
@@ -2953,15 +2953,15 @@
      "presentation"
     ],
     "category": "Agents",
-    "stars7d": 281
+    "stars7d": 283
    },
    {
     "name": "oraios/serena",
     "desc": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
     "url": "https://github.com/oraios/serena",
     "homepage": "https://oraios.github.io/serena",
-    "stars": 30333,
-    "forks": 2114,
+    "stars": 30343,
+    "forks": 2148,
     "lang": "Python",
     "license": "NOASSERTION",
     "created": "2025-03-23T22:35:24Z",
@@ -2977,19 +2977,19 @@
      "jetbrains"
     ],
     "category": "Agents",
-    "stars7d": 137
+    "stars7d": 126
    },
    {
     "name": "4ian/GDevelop",
     "desc": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
     "url": "https://github.com/4ian/GDevelop",
     "homepage": "https://gdevelop.io",
-    "stars": 27623,
-    "forks": 1592,
+    "stars": 27642,
+    "forks": 1595,
     "lang": "JavaScript",
     "license": "NOASSERTION",
     "created": "2014-06-29T19:58:38Z",
-    "pushed": "2026-10-17T00:58:23Z",
+    "pushed": "2026-10-17T04:05:02Z",
     "topics": [
      "2d-game",
      "2d-game-engine",
@@ -3001,15 +3001,15 @@
      "game-engine"
     ],
     "category": "Games",
-    "stars7d": 153
+    "stars7d": 155
    },
    {
     "name": "onlook-dev/onlook",
     "desc": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
     "url": "https://github.com/onlook-dev/onlook",
     "homepage": "https://onlook.com",
-    "stars": 26928,
-    "forks": 2286,
+    "stars": 26931,
+    "forks": 2394,
     "lang": "TypeScript",
     "license": "Apache-2.0",
     "created": "2024-06-25T19:16:02Z",
@@ -3025,7 +3025,7 @@
      "design-tool"
     ],
     "category": "Agents",
-    "stars7d": 72
+    "stars7d": 35
    },
    {
     "name": "flipped-aurora/gin-vue-admin",
@@ -3049,7 +3049,7 @@
      "gin-vue-admin"
     ],
     "category": "Agents",
-    "stars7d": 36
+    "stars7d": 34
    },
    {
     "name": "zilliztech/claude-context",
@@ -3073,15 +3073,15 @@
      "embedding"
     ],
     "category": "Agents",
-    "stars7d": 37
+    "stars7d": 36
    },
    {
     "name": "wonderwhy-er/DesktopCommanderMCP",
     "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
     "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
     "homepage": "https://desktopcommander.app/",
-    "stars": 10075,
-    "forks": 1277,
+    "stars": 10079,
+    "forks": 1280,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2024-12-04T08:26:08Z",
@@ -3097,15 +3097,15 @@
      "terminal-automation"
     ],
     "category": "Agents",
-    "stars7d": 57
+    "stars7d": 60
    },
    {
     "name": "lnkiai/m3e-canvas",
     "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
     "url": "https://github.com/lnkiai/m3e-canvas",
     "homepage": "https://lnkiai.github.io/m3e-canvas/",
-    "stars": 9413,
-    "forks": 1017,
+    "stars": 9438,
+    "forks": 1020,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-09-02T04:36:34Z",
@@ -3121,15 +3121,15 @@
      "vibe-coding"
     ],
     "category": "Other",
-    "stars7d": 142
+    "stars7d": 224
    },
    {
     "name": "nexu-io/html-anything",
     "desc": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
     "url": "https://github.com/nexu-io/html-anything",
     "homepage": "https://open-design.ai/html-anything/",
-    "stars": 9150,
-    "forks": 879,
+    "stars": 9155,
+    "forks": 880,
     "lang": "HTML",
     "license": "Apache-2.0",
     "created": "2026-05-11T09:40:38Z",
@@ -3145,14 +3145,14 @@
      "claude-code"
     ],
     "category": "Agents",
-    "stars7d": 112
+    "stars7d": 106
    },
    {
     "name": "smtg-ai/claude-squad",
     "desc": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
     "url": "https://github.com/smtg-ai/claude-squad",
     "homepage": "https://smtg-ai.github.io/claude-squad/",
-    "stars": 8613,
+    "stars": 8617,
     "forks": 631,
     "lang": "Go",
     "license": "AGPL-3.0",
@@ -3166,15 +3166,15 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 43
+    "stars7d": 42
    },
    {
     "name": "automazeio/ccpm",
     "desc": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
     "url": "https://github.com/automazeio/ccpm",
     "homepage": "https://automaze.io",
-    "stars": 8412,
-    "forks": 846,
+    "stars": 8411,
+    "forks": 851,
     "lang": "Shell",
     "license": "MIT",
     "created": "2025-08-18T23:20:08Z",
@@ -3188,7 +3188,7 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 9
+    "stars7d": 10
    },
    {
     "name": "refly-ai/refly",
@@ -3212,19 +3212,19 @@
      "lark-bot"
     ],
     "category": "Agents",
-    "stars7d": 13
+    "stars7d": 12
    },
    {
     "name": "ZSeven-W/openpencil",
     "desc": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
     "url": "https://github.com/ZSeven-W/openpencil",
     "homepage": "https://op.zseven.tech",
-    "stars": 6177,
+    "stars": 6181,
     "forks": 540,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-02-17T10:51:46Z",
-    "pushed": "2026-10-16T16:08:29Z",
+    "pushed": "2026-10-17T11:08:43Z",
     "topics": [
      "agent",
      "agent-team",
@@ -3240,15 +3240,15 @@
    },
    {
     "name": "tw93/Kaku",
-    "desc": "🎃 A blazing-fast Mac terminal, built for coding with AI.",
+    "desc": "An AI-friendly Mac terminal with sensible defaults, ready out of the box.",
     "url": "https://github.com/tw93/Kaku",
     "homepage": "https://kaku.fun",
     "stars": 6118,
-    "forks": 316,
+    "forks": 317,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-02-07T13:00:49Z",
-    "pushed": "2026-10-17T01:05:30Z",
+    "pushed": "2026-10-17T05:44:49Z",
     "topics": [
      "ai-coding",
      "macos",
@@ -3260,15 +3260,15 @@
      "vibe-coding"
     ],
     "category": "CLI",
-    "stars7d": 16
+    "stars7d": 25
    },
    {
     "name": "cloudflare/vibesdk",
     "desc": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
     "url": "https://github.com/cloudflare/vibesdk",
     "homepage": "https://build.cloudflare.dev",
-    "stars": 5409,
-    "forks": 1278,
+    "stars": 5410,
+    "forks": 1279,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-08-25T15:07:31Z",
@@ -3282,15 +3282,15 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 10
+    "stars7d": 12
    },
    {
     "name": "chaitin/MonkeyCode",
     "desc": "AI coding platform for teams",
     "url": "https://github.com/chaitin/MonkeyCode",
     "homepage": "https://monkeycode-ai.net/",
-    "stars": 4834,
-    "forks": 741,
+    "stars": 4836,
+    "forks": 740,
     "lang": "TypeScript",
     "license": "AGPL-3.0",
     "created": "2025-06-25T06:35:32Z",
@@ -3306,14 +3306,14 @@
      "coding"
     ],
     "category": "Agents",
-    "stars7d": 23
+    "stars7d": 20
    },
    {
     "name": "amantus-ai/vibetunnel",
     "desc": "Turn any browser into your terminal & command your agents on the go.",
     "url": "https://github.com/amantus-ai/vibetunnel",
     "homepage": "https://vt.sh",
-    "stars": 4688,
+    "stars": 4690,
     "forks": 336,
     "lang": "TypeScript",
     "license": "MIT",
@@ -3325,14 +3325,14 @@
      "vibecoding"
     ],
     "category": "Agents",
-    "stars7d": 6
+    "stars7d": 8
    },
    {
     "name": "zgsm-ai/costrict",
     "desc": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion.",
     "url": "https://github.com/zgsm-ai/costrict",
     "homepage": "https://costrict.ai",
-    "stars": 4452,
+    "stars": 4451,
     "forks": 203,
     "lang": "TypeScript",
     "license": "Apache-2.0",
@@ -3349,19 +3349,19 @@
      "deepseek"
     ],
     "category": "Agents",
-    "stars7d": 6
+    "stars7d": 4
    },
    {
     "name": "spacering-net/codeg",
     "desc": "Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.",
     "url": "https://github.com/spacering-net/codeg",
     "homepage": "https://docs.codeg.app",
-    "stars": 3987,
-    "forks": 516,
+    "stars": 3992,
+    "forks": 517,
     "lang": "Rust",
     "license": "Apache-2.0",
     "created": "2026-02-09T09:22:50Z",
-    "pushed": "2026-10-16T14:18:04Z",
+    "pushed": "2026-10-17T10:54:19Z",
     "topics": [
      "acp",
      "ade",
@@ -3380,7 +3380,7 @@
     "desc": "Where people and agents build in tune.",
     "url": "https://github.com/tutti-os/tutti",
     "homepage": "https://tutti.sh/",
-    "stars": 3833,
+    "stars": 3836,
     "forks": 381,
     "lang": "TypeScript",
     "license": "Apache-2.0",
@@ -3397,14 +3397,14 @@
      "ai-workspace"
     ],
     "category": "Agents",
-    "stars7d": 31
+    "stars7d": 33
    },
    {
     "name": "samber/cc-skills-golang",
     "desc": "🧑‍🎨 A collection of Golang agentic skills that works",
     "url": "https://github.com/samber/cc-skills-golang",
     "homepage": "https://skills.sh/samber/cc-skills-golang",
-    "stars": 3497,
+    "stars": 3502,
     "forks": 231,
     "lang": "Go",
     "license": "MIT",
@@ -3421,19 +3421,19 @@
      "codex"
     ],
     "category": "Agents",
-    "stars7d": 74
+    "stars7d": 75
    },
    {
     "name": "agent-of-empires/agent-of-empires",
     "desc": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
     "url": "https://github.com/agent-of-empires/agent-of-empires",
     "homepage": "http://www.agent-of-empires.com/",
-    "stars": 3362,
-    "forks": 382,
+    "stars": 3363,
+    "forks": 384,
     "lang": "Rust",
     "license": "MIT",
     "created": "2026-01-09T17:23:31Z",
-    "pushed": "2026-10-16T22:22:40Z",
+    "pushed": "2026-10-17T06:47:51Z",
     "topics": [
      "ai-coding",
      "claude",
@@ -3476,7 +3476,7 @@
     "desc": "Open source AI terminal for cloud and infrastructure management, enabling you to deploy, troubleshoot, and automate services using natural language and intelligent agents.",
     "url": "https://github.com/chaterm/Chaterm",
     "homepage": "https://chaterm.ai",
-    "stars": 3095,
+    "stars": 3096,
     "forks": 297,
     "lang": "TypeScript",
     "license": "NOASSERTION",
@@ -3493,7 +3493,7 @@
      "putty"
     ],
     "category": "Agents",
-    "stars7d": 6
+    "stars7d": 5
    },
    {
     "name": "intellectronica/ruler",
@@ -3520,12 +3520,36 @@
     "stars7d": 7
    },
    {
+    "name": "GCWing/OpenBitFun",
+    "desc": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+    "url": "https://github.com/GCWing/OpenBitFun",
+    "homepage": "openbitfun.com",
+    "stars": 2827,
+    "forks": 267,
+    "lang": "Rust",
+    "license": "MIT",
+    "created": "2026-02-02T09:52:10Z",
+    "pushed": "2026-10-17T11:40:43Z",
+    "topics": [
+     "agent-teams",
+     "agentic",
+     "agentic-os",
+     "agentic-runtime",
+     "ai-coding",
+     "ai-ide",
+     "ai-sdk",
+     "bitfun"
+    ],
+    "category": "Agents",
+    "stars7d": 241
+   },
+   {
     "name": "metatool-ai/metamcp",
     "desc": "MCP Aggregator, Orchestrator, Middleware, Gateway in one docker",
     "url": "https://github.com/metatool-ai/metamcp",
     "homepage": "https://docs.metamcp.com",
-    "stars": 2710,
-    "forks": 443,
+    "stars": 2709,
+    "forks": 446,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-01-22T11:58:52Z",
@@ -3541,31 +3565,7 @@
      "mcp-tools"
     ],
     "category": "Agents",
-    "stars7d": 12
-   },
-   {
-    "name": "GCWing/OpenBitFun",
-    "desc": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
-    "url": "https://github.com/GCWing/OpenBitFun",
-    "homepage": "openbitfun.com",
-    "stars": 2697,
-    "forks": 264,
-    "lang": "Rust",
-    "license": "MIT",
-    "created": "2026-02-02T09:52:10Z",
-    "pushed": "2026-10-17T01:08:21Z",
-    "topics": [
-     "agent-teams",
-     "agentic",
-     "agentic-os",
-     "agentic-runtime",
-     "ai-coding",
-     "ai-ide",
-     "ai-sdk",
-     "bitfun"
-    ],
-    "category": "Agents",
-    "stars7d": 256
+    "stars7d": 11
    },
    {
     "name": "FullAgent/fulling",
@@ -3596,12 +3596,12 @@
     "desc": "ClawGod is a runtime patch applied to the official Claude Code. It continues to be supported with each version update.",
     "url": "https://github.com/0Chencc/clawgod",
     "homepage": "http://clawgod.0chen.cc",
-    "stars": 2172,
+    "stars": 2174,
     "forks": 353,
     "lang": "JavaScript",
     "license": "GPL-3.0",
     "created": "2026-04-01T11:09:07Z",
-    "pushed": "2026-10-16T12:29:35Z",
+    "pushed": "2026-10-17T11:40:14Z",
     "topics": [
      "ai",
      "assistant",
@@ -3613,14 +3613,14 @@
      "linux"
     ],
     "category": "Other",
-    "stars7d": 52
+    "stars7d": 48
    },
    {
     "name": "Octane0411/open-vibe-island",
     "desc": "Native macOS control center for AI coding agents — monitor sessions, approve actions, and jump back instantly.",
     "url": "https://github.com/Octane0411/open-vibe-island",
     "homepage": null,
-    "stars": 2047,
+    "stars": 2048,
     "forks": 352,
     "lang": "Swift",
     "license": "GPL-3.0",
@@ -3637,19 +3637,19 @@
      "open-island"
     ],
     "category": "Agents",
-    "stars7d": 7
+    "stars7d": 6
    },
    {
     "name": "happier-dev/happier",
     "desc": "Web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
     "url": "https://github.com/happier-dev/happier",
     "homepage": "https://happier.dev",
-    "stars": 1971,
-    "forks": 183,
+    "stars": 1976,
+    "forks": 184,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-12-16T08:44:25Z",
-    "pushed": "2026-10-16T08:05:24Z",
+    "pushed": "2026-10-17T14:03:04Z",
     "topics": [
      "ade",
      "agent-ide",
@@ -3661,7 +3661,7 @@
      "coding-agent"
     ],
     "category": "Agents",
-    "stars7d": 13
+    "stars7d": 18
    },
    {
     "name": "databricks-solutions/ai-dev-kit",
@@ -3705,7 +3705,7 @@
      "vibecoding"
     ],
     "category": "Agents",
-    "stars7d": 4
+    "stars7d": 3
    },
    {
     "name": "superagent-ai/vibekit",
@@ -3734,7 +3734,7 @@
     "desc": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
     "url": "https://github.com/a5c-ai/babysitter",
     "homepage": "https://a5c.ai",
-    "stars": 1850,
+    "stars": 1852,
     "forks": 115,
     "lang": "JavaScript",
     "license": "MIT",
@@ -3751,19 +3751,19 @@
      "claude-code"
     ],
     "category": "Agents",
-    "stars7d": 12
+    "stars7d": 14
    },
    {
     "name": "zhnt/loushang",
     "desc": "AI-native agent harness for coding workflows by python: multi-model LLM orchestration, stateful sessions, tool governance,   traceable delivery, and provider routing for GPT, Claude, DeepSeek, Qwen, Kimi, GLM, and MiniMax.",
     "url": "https://github.com/zhnt/loushang",
     "homepage": null,
-    "stars": 1783,
-    "forks": 278,
+    "stars": 1787,
+    "forks": 280,
     "lang": "Python",
     "license": "Apache-2.0",
     "created": "2026-05-29T17:25:11Z",
-    "pushed": "2026-10-16T14:56:49Z",
+    "pushed": "2026-10-17T12:50:34Z",
     "topics": [
      "agent",
      "agent-harness",
@@ -3775,15 +3775,15 @@
      "codex"
     ],
     "category": "Agents",
-    "stars7d": 26
+    "stars7d": 30
    },
    {
     "name": "fynnfluegge/agtx",
     "desc": "🏄🏼‍♂️ The blackboard for coding agents - agentic development environment for claude code, codex, cursor, opencode, grok and more.",
     "url": "https://github.com/fynnfluegge/agtx",
     "homepage": null,
-    "stars": 1714,
-    "forks": 149,
+    "stars": 1715,
+    "forks": 152,
     "lang": "Rust",
     "license": "Apache-2.0",
     "created": "2026-02-08T10:24:00Z",
@@ -3802,35 +3802,11 @@
     "stars7d": 6
    },
    {
-    "name": "spec-kitty/spec-kitty",
-    "desc": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.",
-    "url": "https://github.com/spec-kitty/spec-kitty",
-    "homepage": "https://spec-kitty.ai",
-    "stars": 1687,
-    "forks": 182,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2025-10-09T12:29:47Z",
-    "pushed": "2026-10-16T20:47:03Z",
-    "topics": [
-     "agentic-coding",
-     "ai-agents",
-     "ai-coding-workflow",
-     "ai-development-dashboard",
-     "ai-progress-tracking",
-     "ai-workflow",
-     "claude-code",
-     "code-workflow"
-    ],
-    "category": "Agents",
-    "stars7d": 2
-   },
-   {
     "name": "nextify-limited/libra",
     "desc": "The open-source V0/Lovable alternative",
     "url": "https://github.com/nextify-limited/libra",
     "homepage": "https://libra.dev",
-    "stars": 1686,
+    "stars": 1687,
     "forks": 277,
     "lang": "TypeScript",
     "license": "AGPL-3.0",
@@ -3846,7 +3822,31 @@
      "web-coding"
     ],
     "category": "Sites",
-    "stars7d": 4
+    "stars7d": 5
+   },
+   {
+    "name": "spec-kitty/spec-kitty",
+    "desc": "Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.",
+    "url": "https://github.com/spec-kitty/spec-kitty",
+    "homepage": "https://spec-kitty.ai",
+    "stars": 1687,
+    "forks": 182,
+    "lang": "Python",
+    "license": "MIT",
+    "created": "2025-10-09T12:29:47Z",
+    "pushed": "2026-10-17T13:50:38Z",
+    "topics": [
+     "agentic-coding",
+     "ai-agents",
+     "ai-coding-workflow",
+     "ai-development-dashboard",
+     "ai-progress-tracking",
+     "ai-workflow",
+     "claude-code",
+     "code-workflow"
+    ],
+    "category": "Agents",
+    "stars7d": 0
    },
    {
     "name": "feiskyer/claude-code-settings",
@@ -3877,12 +3877,12 @@
     "desc": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
     "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
     "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-    "stars": 1518,
-    "forks": 307,
+    "stars": 1583,
+    "forks": 318,
     "lang": "Python",
     "license": "MIT",
     "created": "2026-09-12T09:03:40Z",
-    "pushed": "2026-10-16T07:58:31Z",
+    "pushed": "2026-10-17T06:47:33Z",
     "topics": [
      "api-gateway",
      "claude-code",
@@ -3894,14 +3894,14 @@
      "tencent"
     ],
     "category": "DevTools",
-    "stars7d": 30
+    "stars7d": 56
    },
    {
     "name": "jipika/WaifuX",
     "desc": "macos (mac) Wallhaven · MotionBG · Anime | 壁纸 · 动态壁纸 · 番剧",
     "url": "https://github.com/jipika/WaifuX",
     "homepage": "https://jipika.github.io/WaifuX",
-    "stars": 1494,
+    "stars": 1495,
     "forks": 61,
     "lang": "Swift",
     "license": "GPL-3.0",
@@ -3918,19 +3918,19 @@
      "vibe-coding"
     ],
     "category": "CLI",
-    "stars7d": 33
+    "stars7d": 30
    },
    {
     "name": "LodyAI/Lody",
     "desc": "Share coding agents with your team on phone and desktop",
     "url": "https://github.com/LodyAI/Lody",
     "homepage": "https://lody.ai",
-    "stars": 1424,
-    "forks": 153,
+    "stars": 1427,
+    "forks": 154,
     "lang": "TypeScript",
     "license": "Apache-2.0",
     "created": "2026-08-07T02:09:16Z",
-    "pushed": "2026-10-17T00:06:35Z",
+    "pushed": "2026-10-17T13:46:36Z",
     "topics": [
      "agent",
      "agentic-workflow",
@@ -3942,14 +3942,14 @@
      "orchestration"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 5
    },
    {
     "name": "elirantutia/vibeyard",
     "desc": "The IDE built for AI coding agents.",
     "url": "https://github.com/elirantutia/vibeyard",
     "homepage": null,
-    "stars": 1387,
+    "stars": 1389,
     "forks": 172,
     "lang": "TypeScript",
     "license": "MIT",
@@ -3966,7 +3966,7 @@
      "ide"
     ],
     "category": "Agents",
-    "stars7d": 5
+    "stars7d": 6
    },
    {
     "name": "kharmanskyi/open-steps",
@@ -3997,7 +3997,7 @@
     "desc": "A browser-based desktop where AI Agent operates every app through natural language.",
     "url": "https://github.com/MiniMax-AI/OpenRoom",
     "homepage": "https://www.openroom.ai",
-    "stars": 1269,
+    "stars": 1270,
     "forks": 168,
     "lang": "TypeScript",
     "license": "MIT",
@@ -4014,7 +4014,7 @@
      "react"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 4
    },
    {
     "name": "kbwo/ccmanager",
@@ -4026,7 +4026,7 @@
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-06-07T12:41:22Z",
-    "pushed": "2026-10-15T14:12:14Z",
+    "pushed": "2026-10-17T08:47:43Z",
     "topics": [
      "claude",
      "claude-code",
@@ -4069,7 +4069,7 @@
     "desc": "Turn any repo into an agent-ready workspace for Claude Code, Codex, Cursor, and other coding agents.",
     "url": "https://github.com/hoangnb24/repository-harness",
     "homepage": null,
-    "stars": 1246,
+    "stars": 1245,
     "forks": 441,
     "lang": "Rust",
     "license": "MIT",
@@ -4093,12 +4093,12 @@
     "desc": "Agentic development harness for Claude Code — SPEC-driven plan/run/sync, TRUST 5 quality gates, model+effort routing, and Claude×GLM multi-LLM cost control. Single Go binary, 16 languages, zero deps.",
     "url": "https://github.com/modu-ai/moai-adk",
     "homepage": "https://adk.mo.ai.kr",
-    "stars": 1234,
+    "stars": 1235,
     "forks": 226,
     "lang": "Go",
     "license": "Apache-2.0",
     "created": "2025-09-16T13:07:11Z",
-    "pushed": "2026-10-17T01:09:39Z",
+    "pushed": "2026-10-17T11:42:08Z",
     "topics": [
      "agentic-ai",
      "agentic-coding",
@@ -4146,7 +4146,7 @@
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-05-23T08:31:26Z",
-    "pushed": "2026-10-17T00:49:06Z",
+    "pushed": "2026-10-17T14:01:59Z",
     "topics": [
      "agent-skills",
      "ai",
@@ -4165,7 +4165,7 @@
     "desc": "A Dynamic Island-style command center for managing all your AI coding agents on macOS.",
     "url": "https://github.com/erha19/ping-island",
     "homepage": "https://erha19.github.io/ping-island/",
-    "stars": 1129,
+    "stars": 1130,
     "forks": 127,
     "lang": "Swift",
     "license": "Apache-2.0",
@@ -4181,15 +4181,15 @@
      "vibe-island"
     ],
     "category": "Agents",
-    "stars7d": 2
+    "stars7d": 3
    },
    {
     "name": "mohi-devhub/antivibe",
     "desc": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
     "url": "https://github.com/mohi-devhub/antivibe",
     "homepage": null,
-    "stars": 1122,
-    "forks": 83,
+    "stars": 1123,
+    "forks": 85,
     "lang": "Shell",
     "license": "MIT",
     "created": "2026-04-10T18:07:20Z",
@@ -4204,7 +4204,7 @@
      "vibecoding"
     ],
     "category": "Other",
-    "stars7d": 4
+    "stars7d": 5
    },
    {
     "name": "andrepimenta/claude-code-chat",
@@ -4250,15 +4250,15 @@
      "vibe-coding"
     ],
     "category": "Agents",
-    "stars7d": 21
+    "stars7d": 19
    },
    {
     "name": "alchaincyf/fanbox",
     "desc": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
     "url": "https://github.com/alchaincyf/fanbox",
     "homepage": "https://github.com/alchaincyf/fanbox/releases/latest",
-    "stars": 1030,
-    "forks": 149,
+    "stars": 1033,
+    "forks": 148,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-06-10T01:01:42Z",
@@ -4274,19 +4274,19 @@
      "macos"
     ],
     "category": "Agents",
-    "stars7d": 12
+    "stars7d": 14
    },
    {
     "name": "agent-sh/agentsys",
     "desc": "AI writes code. This automates everything else · 24 plugins · 49 agents · 44 skills · for Claude Code, OpenCode, Codex, Cursor, Kiro.",
     "url": "https://github.com/agent-sh/agentsys",
     "homepage": "https://agent-sh.github.io/agentsys/",
-    "stars": 1002,
-    "forks": 117,
+    "stars": 1003,
+    "forks": 118,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-01-15T09:33:05Z",
-    "pushed": "2026-10-15T20:55:16Z",
+    "pushed": "2026-10-17T10:10:24Z",
     "topics": [
      "agent",
      "ai",
@@ -4322,19 +4322,19 @@
      "cursor"
     ],
     "category": "Agents",
-    "stars7d": 6
+    "stars7d": 5
    },
    {
     "name": "kdlbs/kandev",
     "desc": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
     "url": "https://github.com/kdlbs/kandev",
     "homepage": "https://kandev.ai",
-    "stars": 959,
+    "stars": 963,
     "forks": 156,
     "lang": "Go",
     "license": "AGPL-3.0",
     "created": "2026-01-09T23:26:53Z",
-    "pushed": "2026-10-16T17:06:42Z",
+    "pushed": "2026-10-17T10:24:08Z",
     "topics": [
      "acp",
      "agent-orchestration",
@@ -4346,14 +4346,14 @@
      "coding-agents"
     ],
     "category": "Agents",
-    "stars7d": 2
+    "stars7d": 4
    },
    {
     "name": "freestylefly/wesight",
     "desc": "Open-source desktop AI agent workspace with one-click Claude Code, Codex, OpenClaw, Hermes Agent setup and custom LLM model routing.",
     "url": "https://github.com/freestylefly/wesight",
     "homepage": "https://wesight.ai",
-    "stars": 950,
+    "stars": 951,
     "forks": 208,
     "lang": "TypeScript",
     "license": "MIT",
@@ -4382,7 +4382,7 @@
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-06-05T13:56:40Z",
-    "pushed": "2026-10-15T13:45:13Z",
+    "pushed": "2026-10-17T10:41:30Z",
     "topics": [
      "agent",
      "ai",
@@ -4394,15 +4394,15 @@
      "context"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 2
    },
    {
     "name": "kevinpbuckley/VibeUE",
     "desc": "Unreal Engine Vibe Coding tool",
     "url": "https://github.com/kevinpbuckley/VibeUE",
     "homepage": "https://www.vibeue.com",
-    "stars": 773,
-    "forks": 167,
+    "stars": 776,
+    "forks": 170,
     "lang": "C++",
     "license": "MIT",
     "created": "2025-09-12T14:25:35Z",
@@ -4418,7 +4418,7 @@
      "game-development"
     ],
     "category": "Agents",
-    "stars7d": 45
+    "stars7d": 46
    },
    {
     "name": "markfulton/NanoBananaEditor",
@@ -4449,12 +4449,12 @@
     "desc": "Zephyr: A modern, lightweight, and secure Mihomo / Clash Meta GUI client built with Tauri and Rust.",
     "url": "https://github.com/Juwan-Hwang/Zephyr",
     "homepage": "https://juwan-hwang.github.io/Zephyr/",
-    "stars": 720,
+    "stars": 722,
     "forks": 39,
     "lang": "JavaScript",
     "license": "MIT",
     "created": "2026-03-30T20:53:12Z",
-    "pushed": "2026-10-17T00:45:18Z",
+    "pushed": "2026-10-17T13:47:18Z",
     "topics": [
      "clash",
      "clash-meta",
@@ -4473,8 +4473,8 @@
     "desc": "[Support 0.48.x]（Reset Cursor AI MachineID & Auto Sign Up / In & Bypass Higher Token Limit）自动注册 Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
     "url": "https://github.com/hovanhoa/cursor-free-vip",
     "homepage": null,
-    "stars": 706,
-    "forks": 172,
+    "stars": 709,
+    "forks": 174,
     "lang": "Python",
     "license": "NOASSERTION",
     "created": "2025-12-23T07:01:58Z",
@@ -4490,7 +4490,7 @@
      "free"
     ],
     "category": "Other",
-    "stars7d": 4
+    "stars7d": 7
    },
    {
     "name": "gnomeria/usbtree",
@@ -4514,7 +4514,7 @@
      "tui"
     ],
     "category": "CLI",
-    "stars7d": 9
+    "stars7d": 8
    },
    {
     "name": "marv1nnnnn/llm-min.txt",
@@ -4574,7 +4574,7 @@
      "vibe-coding"
     ],
     "category": "Other",
-    "stars7d": 1
+    "stars7d": 0
    },
    {
     "name": "chrishutchinson/claude-receipts",
@@ -4623,8 +4623,8 @@
     "desc": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a cluster via Tailscale OR connect to app.49agents.com (coming soon)",
     "url": "https://github.com/49-Agents/49-IDE",
     "homepage": "https://49agents.com",
-    "stars": 626,
-    "forks": 67,
+    "stars": 627,
+    "forks": 68,
     "lang": "JavaScript",
     "license": "NOASSERTION",
     "created": "2026-02-27T02:28:57Z",
@@ -4638,19 +4638,19 @@
      "vibecoding"
     ],
     "category": "Agents",
-    "stars7d": 4
+    "stars7d": 5
    },
    {
     "name": "avibe-bot/avibe",
     "desc": "The local-first Agent OS — your AI partner lives on your own machine. Drive the official Claude Code, Codex & OpenCode from your browser or any chat app.",
     "url": "https://github.com/avibe-bot/avibe",
     "homepage": "https://avibe.bot",
-    "stars": 625,
+    "stars": 626,
     "forks": 99,
     "lang": "Python",
     "license": "MIT",
     "created": "2025-08-09T14:04:57Z",
-    "pushed": "2026-10-17T01:06:26Z",
+    "pushed": "2026-10-17T11:07:31Z",
     "topics": [
      "agent",
      "agent-os",
@@ -4662,7 +4662,7 @@
      "codex"
     ],
     "category": "Agents",
-    "stars7d": 0
+    "stars7d": 1
    },
    {
     "name": "velobase/velobase-harness",
@@ -4711,6 +4711,30 @@
     ],
     "category": "Agents",
     "stars7d": 1
+   },
+   {
+    "name": "JetBrains/thinkrail",
+    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "homepage": "https://thinkrail.ai/",
+    "stars": 587,
+    "forks": 48,
+    "lang": "TypeScript",
+    "license": "Apache-2.0",
+    "created": "2026-07-08T07:40:43Z",
+    "pushed": "2026-10-17T11:58:40Z",
+    "topics": [
+     "agent",
+     "agent-skills",
+     "agentic-ai",
+     "agentic-workflow",
+     "ai-coding",
+     "ai-tools",
+     "pi-agent",
+     "pi-agent-extension"
+    ],
+    "category": "Agents",
+    "stars7d": 70
    },
    {
     "name": "pulkitxm/claude-directory",
@@ -4766,7 +4790,7 @@
     "url": "https://github.com/shanraisshan/claude-code-hooks",
     "homepage": "https://www.linkedin.com/in/shanraisshan/",
     "stars": 558,
-    "forks": 62,
+    "forks": 64,
     "lang": "HTML",
     "license": "MIT",
     "created": "2025-11-05T08:06:15Z",
@@ -4806,7 +4830,7 @@
      "swe"
     ],
     "category": "Agents",
-    "stars7d": 2
+    "stars7d": 3
    },
    {
     "name": "Nanako0129/coralline",
@@ -4878,15 +4902,15 @@
      "react"
     ],
     "category": "Agents",
-    "stars7d": 6
+    "stars7d": 5
    },
    {
     "name": "vibeeval/vibecosystem",
     "desc": "AI software team for Claude Code - 138 agents, 295 skills, 73 hooks. Self-learning, multi-agent swarm, autonomous skill evolution.",
     "url": "https://github.com/vibeeval/vibecosystem",
     "homepage": null,
-    "stars": 536,
-    "forks": 46,
+    "stars": 537,
+    "forks": 47,
     "lang": "C#",
     "license": "MIT",
     "created": "2026-03-14T11:57:55Z",
@@ -4902,7 +4926,7 @@
      "developer-tools"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 4
    },
    {
     "name": "jazzenchen/VibeAround",
@@ -4923,30 +4947,6 @@
     ],
     "category": "Agents",
     "stars7d": 1
-   },
-   {
-    "name": "JetBrains/thinkrail",
-    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-    "url": "https://github.com/JetBrains/thinkrail",
-    "homepage": "https://thinkrail.ai/",
-    "stars": 520,
-    "forks": 43,
-    "lang": "TypeScript",
-    "license": "Apache-2.0",
-    "created": "2026-07-08T07:40:43Z",
-    "pushed": "2026-10-16T21:18:07Z",
-    "topics": [
-     "agent",
-     "agent-skills",
-     "agentic-ai",
-     "agentic-workflow",
-     "ai-coding",
-     "ai-tools",
-     "pi-agent",
-     "pi-agent-extension"
-    ],
-    "category": "Agents",
-    "stars7d": 3
    },
    {
     "name": "vicoa-ai/vicoa",
@@ -4970,7 +4970,7 @@
      "developer-tools"
     ],
     "category": "Agents",
-    "stars7d": 16
+    "stars7d": 13
    },
    {
     "name": "jasonjmcghee/claude-debugs-for-you",
@@ -5026,7 +5026,7 @@
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2025-03-22T09:33:08Z",
-    "pushed": "2026-09-29T20:38:23Z",
+    "pushed": "2026-10-17T09:47:45Z",
     "topics": [
      "agentic-ai",
      "agentic-workflow",
@@ -5038,7 +5038,7 @@
      "mcp-server"
     ],
     "category": "Agents",
-    "stars7d": 1
+    "stars7d": 0
    },
    {
     "name": "raghavpillai/branchlet",
@@ -5091,7 +5091,7 @@
     "desc": "Self-hosted Subscription Tracker",
     "url": "https://github.com/bscott/subtrackr",
     "homepage": "https://subtrackr.xyz/",
-    "stars": 475,
+    "stars": 474,
     "forks": 27,
     "lang": "Go",
     "license": "AGPL-3.0",
@@ -5108,7 +5108,7 @@
      "tracking"
     ],
     "category": "Other",
-    "stars7d": 2
+    "stars7d": 1
    },
    {
     "name": "aeria-org/aeria",
@@ -5163,8 +5163,8 @@
     "desc": "🎨 Open-source design MCP server + shadcn/ui registry — AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma…) + design tokens, UI principles & WCAG rules. Install any component with one command.",
     "url": "https://github.com/marvkr/better-design",
     "homepage": "https://better-design.com",
-    "stars": 453,
-    "forks": 24,
+    "stars": 465,
+    "forks": 26,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-05-05T20:01:56Z",
@@ -5180,7 +5180,29 @@
      "cursor"
     ],
     "category": "Agents",
-    "stars7d": 204
+    "stars7d": 216
+   },
+   {
+    "name": "Luisacaotica/ComfyUI-MiniMaxH3Mod",
+    "desc": "🚧 Under construction — no-training RefMod reference adapters for MiniMax H3 (compress reference images/videos into tiny latents, no training needed).",
+    "url": "https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod",
+    "homepage": null,
+    "stars": 447,
+    "forks": 50,
+    "lang": "Python",
+    "license": "MIT",
+    "created": "2026-08-15T00:11:35Z",
+    "pushed": "2026-10-15T16:47:39Z",
+    "topics": [
+     "comfyui",
+     "comfyui-custom-node",
+     "comfyui-extension",
+     "comfyui-manager",
+     "comfyui-nodes",
+     "vibe-coded"
+    ],
+    "category": "Extensions",
+    "stars7d": 99
    },
    {
     "name": "kaanozhan/Frame",
@@ -5204,29 +5226,7 @@
      "claude-code"
     ],
     "category": "Agents",
-    "stars7d": 35
-   },
-   {
-    "name": "Luisacaotica/ComfyUI-MiniMaxH3Mod",
-    "desc": "🚧 Under construction — no-training RefMod reference adapters for MiniMax H3 (compress reference images/videos into tiny latents, no training needed).",
-    "url": "https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod",
-    "homepage": null,
-    "stars": 441,
-    "forks": 50,
-    "lang": "Python",
-    "license": "MIT",
-    "created": "2026-08-15T00:11:35Z",
-    "pushed": "2026-10-15T16:47:39Z",
-    "topics": [
-     "comfyui",
-     "comfyui-custom-node",
-     "comfyui-extension",
-     "comfyui-manager",
-     "comfyui-nodes",
-     "vibe-coded"
-    ],
-    "category": "Extensions",
-    "stars7d": 93
+    "stars7d": 33
    },
    {
     "name": "formulahendry/mcp-server-spec-driven-development",
@@ -5282,7 +5282,7 @@
     "lang": "Go",
     "license": "MIT",
     "created": "2025-10-28T13:15:30Z",
-    "pushed": "2026-09-22T22:20:25Z",
+    "pushed": "2026-10-17T12:39:33Z",
     "topics": [
      "claude",
      "claudecode",
@@ -5365,12 +5365,12 @@
     "desc": "Open-source AI pair programming for desktop: a Mentor + Executor agent cross-check each other's code to catch AI hallucinations. Works with Claude Code, Codex, Gemini & opencode. macOS / Windows / Linux.",
     "url": "https://github.com/timwuhaotian/the-pair",
     "homepage": "https://apps.timwuhaotian.dev/",
-    "stars": 382,
+    "stars": 383,
     "forks": 30,
     "lang": "Rust",
     "license": "Apache-2.0",
     "created": "2026-03-22T18:38:00Z",
-    "pushed": "2026-10-15T14:48:46Z",
+    "pushed": "2026-10-17T14:01:11Z",
     "topics": [
      "ai",
      "ai-agents",
@@ -5382,7 +5382,7 @@
      "gemini"
     ],
     "category": "Agents",
-    "stars7d": 3
+    "stars7d": 4
    },
    {
     "name": "superbasicstudio/claude-conductor",
@@ -5455,7 +5455,7 @@
     "desc": "An elegant, information-rich status, menu, and side bar for Pi Agent.",
     "url": "https://github.com/michaelmjhhhh/pi-atelier",
     "homepage": "https://pi.dev/packages/pi-atelier",
-    "stars": 365,
+    "stars": 369,
     "forks": 31,
     "lang": "TypeScript",
     "license": "MIT",
@@ -5479,7 +5479,7 @@
     "desc": "Unified Agent Gateway — Enables Claude Code CLI and Cursor IDE to use free AI backends (Antigravity, Codex) through protocol translation",
     "url": "https://github.com/funny-vibes/agent-vibes",
     "homepage": null,
-    "stars": 360,
+    "stars": 359,
     "forks": 75,
     "lang": "TypeScript",
     "license": "MIT",
@@ -5595,7 +5595,7 @@
     "desc": "Ghost Proxifier Pro 是一款专为 Windows 平台打造的高性能进程级透明代理引擎，旨在解决现代复杂网络环境下的两大痛点：「特定应用不走系统代理」以及「多重 VPN/代理路由冲突」。  核心亮点描述： 真正的进程级细粒度控制：不同于传统的全局代理或 TUN 模式，它基于 MinHook 直接拦截应用层 Winsock API。这意味着您可以精确指定某个进程（如 Chrome、游戏或特定工具）走代理，而无需修改系统全局路由表。 「全家桶」自动关联技术：Pro 版独有的进程追踪算法。只需接管母进程，它便能智能识别并自动拦截该软件启动的所有关联子进程，彻底告别繁琐的手动配置。 零侵入、高兼容：采用独创的 Lazy Handshake (延迟握手) 机制，完美兼容现代异步 IO",
     "url": "https://github.com/liliBestCoder/ghost-proxifier-pro",
     "homepage": "https://ghostproxifier.com",
-    "stars": 333,
+    "stars": 335,
     "forks": 22,
     "lang": "HTML",
     "license": "NOASSERTION",
@@ -5621,8 +5621,8 @@
     "desc": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
     "url": "https://github.com/lnkiai/m3e-canvas",
     "homepage": "https://lnkiai.github.io/m3e-canvas/",
-    "stars": 9413,
-    "forks": 1017,
+    "stars": 9438,
+    "forks": 1020,
     "lang": "TypeScript",
     "license": "MIT",
     "created": "2026-09-02T04:36:34Z",
@@ -5638,19 +5638,19 @@
      "vibe-coding"
     ],
     "category": "Other",
-    "stars7d": 142
+    "stars7d": 224
    },
    {
     "name": "ardeyouxipianyi/workbuddy2api-hub",
     "desc": "WorkBuddy 国际国内多账号反代网关，支持 Codex / Claude Code / DSH与标准 OpenAI 客户端。",
     "url": "https://github.com/ardeyouxipianyi/workbuddy2api-hub",
     "homepage": "https://github.com/ardeyouxipianyi/workbuddy2api-intl/releases",
-    "stars": 1518,
-    "forks": 307,
+    "stars": 1583,
+    "forks": 318,
     "lang": "Python",
     "license": "MIT",
     "created": "2026-09-12T09:03:40Z",
-    "pushed": "2026-10-16T07:58:31Z",
+    "pushed": "2026-10-17T06:47:33Z",
     "topics": [
      "api-gateway",
      "claude-code",
@@ -5662,7 +5662,7 @@
      "tencent"
     ],
     "category": "DevTools",
-    "stars7d": 30
+    "stars7d": 56
    },
    {
     "name": "kharmanskyi/open-steps",
@@ -5710,7 +5710,7 @@
      "developer-tools"
     ],
     "category": "Agents",
-    "stars7d": 16
+    "stars7d": 13
    }
   ]
  }
