@@ -16,9 +16,10 @@ import {
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT_DIR = join(ROOT, "public", "data");
 const args = process.argv.slice(2);
-const LIMIT = args.includes("--limit")
+const limitArg = args.includes("--limit")
   ? parseInt(args[args.indexOf("--limit") + 1], 10)
-  : 150;
+  : NaN;
+const LIMIT = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : 150;
 const WITH_VELOCITY = !args.includes("--no-velocity");
 const PER_PAGE = 100;
 

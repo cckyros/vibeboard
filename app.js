@@ -117,7 +117,7 @@ function buildRow(r, i) {
   esc(stars, fmt(r.stars));
   const delta = document.createElement("span");
   const d = r.stars7d;
-  delta.className = "delta" + (d ? "" : " zero");
+  delta.className = "delta" + (d == null ? " zero" : "");
   esc(delta, d == null ? "—" : `+${fmt(d)}/w`);
   const lang = document.createElement("span");
   lang.className = "lang";
