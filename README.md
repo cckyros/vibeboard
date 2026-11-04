@@ -16,6 +16,8 @@ Boards:
 - **All-time** — total stars
 - **New** — created within 60 days, by stars
 
+Tag chips: every repo's GitHub topics are counted across the corpus (`meta.tagStats`) and folded into ecosystem/product groups — Claude, Codex, Cursor, MCP, agents, skills, CLI, web, apps, games, devtools, automation, AI/LLM, data, security, vibe-tagged (`meta.tagGroups`). Chips are **multi-select** (union); selecting a group re-ranks the current board inside that subset — order stays the board's metric, ranks re-number locally.
+
 ## Local dev
 
 ```bash
@@ -52,7 +54,7 @@ node --test test/pipeline.test.mjs   # unit tests: filters, dedupe, scoring, boa
 
 - Trending velocity is an *estimate*: GitHub restricts the stargazers list endpoint for third-party repos (404), so we count `WatchEvent`s in the public events feed instead — hot repos can be undercounted within the ~300-event window.
 - "Vibe-coded" is self-declared via topics; repos without the tags aren't tracked.
-- Category assignment is heuristic (name/desc/topics keywords), not hand-reviewed.
+- Category assignment is heuristic (name/desc/topics keywords), not hand-reviewed. Tag groups are regex clusters over raw topics — a repo can sit in several groups and unmapped topics stay in `tagStats` only.
 
 ## License
 

@@ -11,6 +11,7 @@ import {
   normalizeRepo,
   starsLast7d,
   buildBoards,
+  buildTagMeta,
 } from "./pipeline.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -123,6 +124,7 @@ async function main() {
     repoCount: normalized.length,
     totalStars: normalized.reduce((s, r) => s + r.stars, 0),
     topics: TOPIC_QUERIES,
+    ...buildTagMeta(normalized),
     methodology:
       "Trending = WatchEvents in last 7d (est. from public repo events, " +
       "capped at ~300 events — hot repos may be undercounted). " +

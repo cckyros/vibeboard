@@ -1,7 +1,7 @@
 /* Vibeboard — renders public/data/repos.json. Zero deps, DOM-safe (textContent only). */
 "use strict";
 
-const state = { board: "trending", cat: "all", q: "" };
+const state = { board: "trending", tags: new Set(), q: "" };
 let DATA = null;
 
 const $ = (sel) => document.querySelector(sel);
@@ -40,16 +40,35 @@ function renderStats() {
 
 function renderChips() {
   const repos = allRepos();
+  chipsEl.replaceChildren();
+  // 优先用管线动态统计的标签簇；旧数据文件没有 tagGroups 时退回启发式 category
+  const groups = DATA.meta.tagGroups;
+  const all = document.createElement("button");
+  all.type = "button";
+  all.dataset.tag = "__all__";
+  all.setAttribute("aria-pressed", String(state.tags.size === 0));
+  esc(all, `All ${repos.size}`);
+  chipsEl.append(all);
+  if (groups && groups.length) {
+    for (const g of groups) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.dataset.tag = g.id;
+      b.title = g.topics.join(" ");
+      b.setAttribute("aria-pressed", String(state.tags.has(g.id)));
+      esc(b, `${g.label} ${g.count}`);
+      chipsEl.append(b);
+    }
+    return;
+  }
   const counts = new Map();
   for (const r of repos.values()) counts.set(r.category, (counts.get(r.category) || 0) + 1);
-  const cats = ["all", ...[...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a))];
-  chipsEl.replaceChildren();
-  for (const cat of cats) {
+  for (const cat of [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a))) {
     const b = document.createElement("button");
     b.type = "button";
-    b.dataset.cat = cat;
-    b.setAttribute("aria-pressed", String(state.cat === cat));
-    esc(b, cat === "all" ? `All ${repos.size}` : `${cat} ${counts.get(cat)}`);
+    b.dataset.tag = `cat:${cat}`;
+    b.setAttribute("aria-pressed", String(state.tags.has(`cat:${cat}`)));
+    esc(b, `${cat} ${counts.get(cat)}`);
     chipsEl.append(b);
   }
 }
@@ -58,7 +77,12 @@ function currentRows() {
   const rows = DATA.boards[state.board] || [];
   const q = state.q.trim().toLowerCase();
   return rows.filter((r) => {
-    if (state.cat !== "all" && r.category !== state.cat) return false;
+    if (state.tags.size) {
+      // 多选并集：命中任一选中簇即入选；名次按当前榜指标在子集内重排
+      const hit = [...state.tags].some((t) =>
+        t.startsWith("cat:") ? r.category === t.slice(4) : (r.groups || []).includes(t));
+      if (!hit) return false;
+    }
     if (q && !(`${r.name} ${r.desc || ""}`.toLowerCase().includes(q))) return false;
     return true;
   });
@@ -181,7 +205,8 @@ function render() {
   boardEl.replaceChildren(...rows.map(buildRow));
   emptyEl.hidden = rows.length > 0;
   for (const b of chipsEl.children) {
-    b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat));
+    b.setAttribute("aria-pressed",
+      b.dataset.tag === "__all__" ? String(state.tags.size === 0) : String(state.tags.has(b.dataset.tag)));
   }
   for (const t of document.querySelectorAll(".tabs [role=tab]")) {
     t.setAttribute("aria-selected", String(t.dataset.board === state.board));
@@ -196,9 +221,12 @@ document.querySelector(".tabs").addEventListener("click", (e) => {
 });
 
 chipsEl.addEventListener("click", (e) => {
-  const b = e.target.closest("[data-cat]");
+  const b = e.target.closest("[data-tag]");
   if (!b) return;
-  state.cat = b.dataset.cat;
+  const t = b.dataset.tag;
+  if (t === "__all__") state.tags.clear();
+  else if (state.tags.has(t)) state.tags.delete(t);
+  else state.tags.add(t);
   render();
 });
 

@@ -70,6 +70,65 @@ export function categorize(r) {
   return "Other";
 }
 
+/* ---------- Tag groups：把原始 topics 归进生态/品类簇 ----------
+   每个 repo 可属多簇；簇的真实 topics 和计数由 buildTagMeta 动态统计，
+   新 topic 进语料会自动出现在所属簇（未命中的落进 tagStats 原始榜）。 */
+export const TAG_GROUPS = [
+  { id: "claude", label: "Claude", re: /^claude|anthropic/ },
+  { id: "codex", label: "Codex", re: /^codex|openai-codex/ },
+  { id: "cursor", label: "Cursor", re: /^cursor/ },
+  { id: "gemini", label: "Gemini", re: /^gemini|google/ },
+  { id: "mcp", label: "MCP", re: /^mcp|model-context-protocol/ },
+  { id: "agents", label: "Agents", re: /agent|swarm|copilot|autonomous|agentic/ },
+  { id: "skills", label: "Skills", re: /skill/ },
+  { id: "cli", label: "CLI", re: /^cli$|^tui$|terminal|command-?line|shell/ },
+  { id: "web", label: "Web", re: /^web|front[- ]?end|react|vue|svelte|nextjs|html|css|tailwind|dashboard|website|landing/ },
+  { id: "apps", label: "Apps", re: /\bapp\b|mobile|ios|android|desktop|electron|tauri|macos|windows/ },
+  { id: "games", label: "Games", re: /game|puzzle|roguelike|arcade|fps|rpg/ },
+  { id: "devtools", label: "DevTools", re: /sdk|api$|framework|library|devtools|developer-tools|plugin|extension|vscode|neovim|generator|scaffold|template|boilerplate|testing|linter|compiler/ },
+  { id: "automation", label: "Automation", re: /automation|workflow|devops|^ci$|n8n|pipeline/ },
+  { id: "llm", label: "AI/LLM", re: /^ai$|^ai-|^llm|gpt|openai|generative|machine-learning|deep-learning|transformer|rag$|embedding/ },
+  { id: "data", label: "Data", re: /data$|database|sqlite|postgres|mysql|^sql|analytics|duckdb/ },
+  { id: "security", label: "Security", re: /security|pentest|cyber|osint|ctf/ },
+  { id: "vibe", label: "Vibe-tagged", re: /^vibe/ },
+];
+
+const TAG_RE = new Map(TAG_GROUPS.map((g) => [g.id, new RegExp(g.re.source, "i")]));
+
+export function assignGroups(topics) {
+  const out = [];
+  for (const t of topics || []) {
+    for (const g of TAG_GROUPS) {
+      if (TAG_RE.get(g.id).test(t) && !out.includes(g.id)) out.push(g.id);
+    }
+  }
+  return out;
+}
+
+/** 动态统计：原始 topic 计数（top N）+ 各簇 {label,count,topics 实际命中}。 */
+export function buildTagMeta(repos, topN = 40) {
+  const stats = new Map();
+  const groups = new Map(); // id -> {label,count,topics:Set}
+  for (const r of repos) {
+    const seen = new Set(r.topics || []);
+    for (const t of seen) stats.set(t, (stats.get(t) || 0) + 1);
+    for (const gid of r.groups || assignGroups([...seen])) {
+      if (!groups.has(gid)) {
+        const def = TAG_GROUPS.find((g) => g.id === gid);
+        groups.set(gid, { id: gid, label: def?.label ?? gid, count: 0, topics: new Set() });
+      }
+      const g = groups.get(gid);
+      g.count++;
+      for (const t of seen) if (TAG_RE.get(gid).test(t)) g.topics.add(t);
+    }
+  }
+  const tagStats = [...stats.entries()].sort((a, b) => b[1] - a[1]).slice(0, topN)
+    .map(([topic, count]) => ({ topic, count }));
+  const tagGroups = [...groups.values()].sort((a, b) => b.count - a.count)
+    .map((g) => ({ id: g.id, label: g.label, count: g.count, topics: [...g.topics].sort() }));
+  return { tagStats, tagGroups };
+}
+
 // Stars gained in last 7 days, counted from repo public events
 // (WatchEvent entries). `events` = [{type, created_at}]. `now` = Date.
 // The events feed is capped (~300 events / ~90d), so hot repos may be
@@ -94,6 +153,7 @@ export function normalizeRepo(r, extra = {}) {
     created: r.created_at,
     pushed: r.pushed_at,
     topics: (r.topics || []).slice(0, 8),
+    groups: assignGroups((r.topics || []).slice(0, 8)),
     category: categorize(r),
     stars7d: extra.stars7d ?? null,
   };

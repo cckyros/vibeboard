@@ -4,6 +4,8 @@ import {
   isProductRepo,
   dedupeByName,
   categorize,
+  assignGroups,
+  buildTagMeta,
   starsLast7d,
   normalizeRepo,
   buildBoards,
@@ -135,6 +137,41 @@ test("normalizeRepo shapes the public record", () => {
   assert.equal(r.desc, "desc");
   assert.equal(r.stars7d, 4);
   assert.equal(r.category, "Other");
+});
+
+test("assignGroups: multi-membership from raw topics", () => {
+  const g = assignGroups(["claude-code", "mcp", "cli", "vibe-coding"]);
+  assert.ok(g.includes("claude") && g.includes("mcp") && g.includes("cli") && g.includes("vibe") && g.includes("agents") === false,
+    JSON.stringify(g));
+  assert.deepEqual(assignGroups([]), []);
+  assert.deepEqual(assignGroups(null), []);
+  // 'agents' 簇靠 agent* topic 命中，不是字面 'agent' 才配
+  assert.ok(assignGroups(["ai-agents"]).includes("agents"));
+});
+
+test("buildTagMeta: 动态计数 + 簇只含真实命中 topics + 空簇不出现", () => {
+  const repos = [
+    { topics: ["claude-code", "mcp"], groups: assignGroups(["claude-code", "mcp"]) },
+    { topics: ["claude", "cursor"], groups: assignGroups(["claude", "cursor"]) },
+    { topics: ["game"], groups: assignGroups(["game"]) },
+  ];
+  const { tagStats, tagGroups } = buildTagMeta(repos);
+  assert.deepEqual(Object.keys(tagStats[0]).sort(), ["count", "topic"]); // {topic,count} shape
+  assert.equal(tagStats.find((t) => t.topic === "claude-code").count, 1);
+  const claude = tagGroups.find((g) => g.id === "claude");
+  assert.equal(claude.count, 2);
+  assert.deepEqual(claude.topics, ["claude", "claude-code"]);
+  assert.ok(tagGroups.every((g) => g.count > 0));
+  assert.equal(tagGroups[0].count >= tagGroups[tagGroups.length - 1].count, true); // 按 count 降序
+});
+
+test("normalizeRepo: groups 字段随 topics 落盘", () => {
+  const r = normalizeRepo({
+    full_name: "a/b", description: "x".repeat(9), html_url: "u", stargazers_count: 1,
+    forks_count: 0, created_at: "t", pushed_at: "t", license: { spdx_id: "MIT" },
+    topics: ["mcp", "cli"],
+  });
+  assert.deepEqual(r.groups.sort(), ["cli", "mcp"]);
 });
 
 test("buildBoards: three boards, correct order & filters", () => {
