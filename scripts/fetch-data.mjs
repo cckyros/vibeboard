@@ -6,12 +6,15 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   TOPIC_QUERIES,
+  WIDE_SHARDS,
+  FRESH_QUERY,
   isProductRepo,
   dedupeByName,
   normalizeRepo,
   starsLast7d,
   buildBoards,
   buildTagMeta,
+  buildIndex,
 } from "./pipeline.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,6 +24,11 @@ const limitArg = args.includes("--limit")
   ? parseInt(args[args.indexOf("--limit") + 1], 10)
   : NaN;
 const LIMIT = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : Infinity; // 默认全产品池：子榜排名在本地做
+const vlimArg = args.includes("--velocity-limit")
+  ? parseInt(args[args.indexOf("--velocity-limit") + 1], 10)
+  : NaN;
+// velocity 每 repo ≥1 次 API 调用——只给 star 头部做（trending 反正只在这层出）
+const VELOCITY_LIMIT = Number.isFinite(vlimArg) && vlimArg > 0 ? vlimArg : 1600;
 const WITH_VELOCITY = !args.includes("--no-velocity");
 const PER_PAGE = 100;
 
@@ -66,12 +74,11 @@ async function recentEvents(repo) {
   return all;
 }
 
-async function searchTopic(topic) {
+async function search(query, pages = 2) {
   const out = [];
-  // Two pages per topic = up to 200 candidates each; enough for the pool.
-  for (let page = 1; page <= 2; page++) {
+  for (let page = 1; page <= pages; page++) {
     const data = await ghJson(
-      `https://api.github.com/search/repositories?q=topic:${topic}` +
+      `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}` +
         `&sort=stars&order=desc&per_page=${PER_PAGE}&page=${page}`,
     );
     out.push(...(data.items || []));
@@ -83,10 +90,15 @@ async function searchTopic(topic) {
 async function main() {
   console.log(`token: ${TOKEN ? "yes" : "NO (rate limit 60/h)"}`);
   const pool = [];
-  for (const t of TOPIC_QUERIES) {
-    process.stdout.write(`topic:${t} `);
+  const queries = [
+    ...TOPIC_QUERIES.map((t) => `topic:${t}`),   // 前提线：vibe 标记产品
+    ...WIDE_SHARDS,                               // 全库线：star 分片
+    FRESH_QUERY(`${new Date().getFullYear()}-01-01`), // 新血线
+  ];
+  for (const q of queries) {
+    process.stdout.write(`${q} `);
     try {
-      const items = await searchTopic(t);
+      const items = await search(q);
       console.log(`${items.length}`);
       pool.push(...items);
     } catch (e) {
@@ -105,7 +117,7 @@ async function main() {
   const normalized = [];
   for (const [i, r] of top.entries()) {
     let stars7d = null;
-    if (WITH_VELOCITY) {
+    if (WITH_VELOCITY && i < VELOCITY_LIMIT) {
       try {
         const events = await recentEvents(r);
         stars7d = starsLast7d(events);
@@ -132,7 +144,8 @@ async function main() {
       "Inclusion: public, non-fork, non-archived, has license + description, not a list/tutorial repo.",
   };
   await mkdir(OUT_DIR, { recursive: true });
-  await writeFile(join(OUT_DIR, "repos.json"), JSON.stringify({ meta, boards }, null, 1));
+  await writeFile(join(OUT_DIR, "repos.json"),
+    JSON.stringify({ meta, repos: normalized, boards: buildIndex(boards) }, null, 1));
   console.log(`wrote public/data/repos.json — trending top: ${boards.trending[0]?.name || "n/a"}`);
 }
 main().catch((e) => {

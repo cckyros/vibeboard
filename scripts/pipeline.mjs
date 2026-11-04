@@ -8,6 +8,18 @@ export const TOPIC_QUERIES = [
   "vibecode",
 ];
 
+// 全库池分片（search 单查询封顶 1000 结果，必须按 star 区间切）
+// 产品定位仍是 vibe wall：vibe 簇只是切片之一，全库覆盖非 AI 域。
+export const WIDE_SHARDS = [
+  "stars:>10000",          // 巨头层
+  "stars:3000..10000",
+  "stars:1000..3000",
+  "stars:300..1000",       // 中坚层（trending 常客多在此）
+];
+
+// 新血池：今年创建且已起量的（trending 本质偏爱新 repo）
+export const FRESH_QUERY = (yearStart) => `created:>${yearStart} stars:>80`;
+
 // Repos whose *purpose* is curation/teaching, not a shipped product.
 // Name is high-signal: apply the full list there. Description is noisier:
 // only strong curation markers disqualify.
@@ -176,4 +188,11 @@ export function buildBoards(repos, now = new Date()) {
     .filter((r) => new Date(r.created).getTime() >= cutoff)
     .sort((a, b) => b.stars - a.stars);
   return { trending, alltime, fresh };
+}
+
+// 落盘格式：repos 扁平数组 + boards 只存名字索引（3 榜重复行在 3k+ 规模下会浪费 ~4MB）
+export function buildIndex(boards) {
+  return Object.fromEntries(
+    Object.entries(boards).map(([k, list]) => [k, list.map((r) => r.name)]),
+  );
 }

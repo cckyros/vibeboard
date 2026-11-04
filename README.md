@@ -8,7 +8,7 @@
 
 ## What it ranks
 
-Repos tagged `vibe-coding` / `vibecoding` / `vibe-coded` / `vibecoded` / `vibecode`, filtered to **shipped products**: public, non-fork, non-archived, licensed, described, not a list/tutorial/resource repo.
+Corpus (two tracks): **vibe-tagged products** — repos tagged `vibe-coding`/`vibecoding`/`vibe-coded`/`vibecoded`/`vibecode` — plus a **GitHub-wide pool** (star-sharded search `stars:>300` + this-year newcomers `stars:>80`), all filtered to **shipped products**: public, non-fork, non-archived, licensed, described, not a list/tutorial/resource repo. The `vibe` tag group is a slice of the corpus, not the corpus.
 
 Boards:
 
@@ -52,7 +52,7 @@ node --test test/pipeline.test.mjs   # unit tests: filters, dedupe, scoring, boa
 
 ## Honest limitations
 
-- Trending velocity is an *estimate*: GitHub restricts the stargazers list endpoint for third-party repos (404), so we count `WatchEvent`s in the public events feed instead — hot repos can be undercounted within the ~300-event window.
+- Trending velocity is an *estimate*: GitHub Trending itself is a private blend (stars/forks/commits/follows/pageviews — pageviews are not public). We use the community-standard approximation, `WatchEvent` counts in the public events feed (~300-event cap — very hot repos may be undercounted), and only for the star-head slice of the corpus (`--velocity-limit`).
 - "Vibe-coded" is self-declared via topics; repos without the tags aren't tracked.
 - Category assignment is heuristic (name/desc/topics keywords), not hand-reviewed. Tag groups are regex clusters over raw topics — a repo can sit in several groups and unmapped topics stay in `tagStats` only.
 

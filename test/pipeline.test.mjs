@@ -9,6 +9,7 @@ import {
   starsLast7d,
   normalizeRepo,
   buildBoards,
+  buildIndex,
 } from "../scripts/pipeline.mjs";
 
 const base = {
@@ -186,4 +187,9 @@ test("buildBoards: three boards, correct order & filters", () => {
   assert.deepEqual(trending.map((r) => r.name), ["b", "a"]); // velocity order; null excluded
   assert.deepEqual(alltime.map((r) => r.name), ["c", "a", "b"]);
   assert.deepEqual(fresh.map((r) => r.name), ["a", "b"]); // c too old; a>b by stars
+});
+
+test("buildIndex: boards -> name lists", () => {
+  const idx = buildIndex({ trending: [{ name: "a" }, { name: "b" }], alltime: [{ name: "c" }] });
+  assert.deepEqual(idx, { trending: ["a", "b"], alltime: ["c"] });
 });

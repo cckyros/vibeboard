@@ -26,12 +26,19 @@ function relDate(iso) {
   return d.toISOString().slice(0, 10);
 }
 
+let repoMap = null;
 function allRepos() {
-  const map = new Map();
-  for (const list of Object.values(DATA.boards)) {
-    for (const r of list) if (!map.has(r.name)) map.set(r.name, r);
+  if (repoMap) return repoMap;
+  repoMap = new Map();
+  // 新格式：repos 扁平数组；旧格式兜底：boards 里是行对象
+  if (Array.isArray(DATA.repos)) {
+    for (const r of DATA.repos) repoMap.set(r.name, r);
+  } else {
+    for (const list of Object.values(DATA.boards)) {
+      for (const r of list) if (typeof r === "object" && !repoMap.has(r.name)) repoMap.set(r.name, r);
+    }
   }
-  return map;
+  return repoMap;
 }
 
 function renderStats() {
@@ -77,7 +84,8 @@ function renderChips() {
 }
 
 function currentRows() {
-  const rows = DATA.boards[state.board] || [];
+  const raw = DATA.boards[state.board] || [];
+  const rows = typeof raw[0] === "string" ? raw.map((n) => allRepos().get(n)).filter(Boolean) : raw;
   const q = state.q.trim().toLowerCase();
   return rows.filter((r) => {
     if (state.group) {
