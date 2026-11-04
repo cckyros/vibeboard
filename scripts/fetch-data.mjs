@@ -20,7 +20,7 @@ const args = process.argv.slice(2);
 const limitArg = args.includes("--limit")
   ? parseInt(args[args.indexOf("--limit") + 1], 10)
   : NaN;
-const LIMIT = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : 150;
+const LIMIT = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : Infinity; // 默认全产品池：子榜排名在本地做
 const WITH_VELOCITY = !args.includes("--no-velocity");
 const PER_PAGE = 100;
 

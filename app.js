@@ -1,13 +1,14 @@
 /* Vibeboard — renders public/data/repos.json. Zero deps, DOM-safe (textContent only). */
 "use strict";
 
-const state = { board: "trending", tags: new Set(), q: "" };
+const state = { board: "trending", group: "", topics: new Set(), q: "" };
 let DATA = null;
 
 const $ = (sel) => document.querySelector(sel);
 const boardEl = $("#board");
 const emptyEl = $("#empty");
 const chipsEl = $("#chips");
+const groupEl = $("#group");
 
 function esc(node, text) { node.textContent = text == null ? "" : String(text); }
 
@@ -38,37 +39,39 @@ function renderStats() {
   esc($("#stats"), `tracked ${fmt(m.repoCount)} repos · ★${fmt(m.totalStars)} · upd ${relDate(m.generatedAt)}`);
 }
 
-function renderChips() {
-  const repos = allRepos();
-  chipsEl.replaceChildren();
-  // 优先用管线动态统计的标签簇；旧数据文件没有 tagGroups 时退回启发式 category
+// 标签下拉的数据源：优先管线动态簇，旧文件退回启发式 category
+function groupOptions() {
   const groups = DATA.meta.tagGroups;
-  const all = document.createElement("button");
-  all.type = "button";
-  all.dataset.tag = "__all__";
-  all.setAttribute("aria-pressed", String(state.tags.size === 0));
-  esc(all, `All ${repos.size}`);
-  chipsEl.append(all);
-  if (groups && groups.length) {
-    for (const g of groups) {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.dataset.tag = g.id;
-      b.title = g.topics.join(" ");
-      b.setAttribute("aria-pressed", String(state.tags.has(g.id)));
-      esc(b, `${g.label} ${g.count}`);
-      chipsEl.append(b);
-    }
-    return;
-  }
+  if (groups && groups.length) return groups;
   const counts = new Map();
-  for (const r of repos.values()) counts.set(r.category, (counts.get(r.category) || 0) + 1);
-  for (const cat of [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a))) {
+  for (const r of allRepos().values()) counts.set(r.category, (counts.get(r.category) || 0) + 1);
+  return [...counts.entries()].sort((a, b) => b[1] - a[1])
+    .map(([cat, count]) => ({ id: `cat:${cat}`, label: cat, count, topics: [] }));
+}
+
+function renderGroupPick() {
+  const repos = allRepos();
+  const opts = [{ id: "", label: "All tags", count: repos.size }, ...groupOptions()];
+  groupEl.replaceChildren(...opts.map((g) => {
+    const o = document.createElement("option");
+    o.value = g.id;
+    esc(o, `${g.label} (${g.count})`);
+    return o;
+  }));
+  groupEl.value = state.group;
+}
+
+function renderChips() {
+  chipsEl.replaceChildren();
+  if (!state.group) return;
+  const g = groupOptions().find((x) => x.id === state.group);
+  if (!g || !g.topics.length) return;
+  for (const t of g.topics) {
     const b = document.createElement("button");
     b.type = "button";
-    b.dataset.tag = `cat:${cat}`;
-    b.setAttribute("aria-pressed", String(state.tags.has(`cat:${cat}`)));
-    esc(b, `${cat} ${counts.get(cat)}`);
+    b.dataset.topic = t.topic;
+    b.setAttribute("aria-pressed", String(state.topics.has(t.topic)));
+    esc(b, `${t.topic} ${t.count}`);
     chipsEl.append(b);
   }
 }
@@ -77,10 +80,16 @@ function currentRows() {
   const rows = DATA.boards[state.board] || [];
   const q = state.q.trim().toLowerCase();
   return rows.filter((r) => {
-    if (state.tags.size) {
-      // 多选并集：命中任一选中簇即入选；名次按当前榜指标在子集内重排
-      const hit = [...state.tags].some((t) =>
-        t.startsWith("cat:") ? r.category === t.slice(4) : (r.groups || []).includes(t));
+    if (state.group) {
+      let hit;
+      if (state.topics.size) {
+        // 簇内精选：命中任一选中 topic 即入选，名次按当前榜指标在子集内重排
+        hit = (r.topics || []).some((t) => state.topics.has(t));
+      } else {
+        hit = state.group.startsWith("cat:")
+          ? r.category === state.group.slice(4)
+          : (r.groups || []).includes(state.group);
+      }
       if (!hit) return false;
     }
     if (q && !(`${r.name} ${r.desc || ""}`.toLowerCase().includes(q))) return false;
@@ -205,8 +214,7 @@ function render() {
   boardEl.replaceChildren(...rows.map(buildRow));
   emptyEl.hidden = rows.length > 0;
   for (const b of chipsEl.children) {
-    b.setAttribute("aria-pressed",
-      b.dataset.tag === "__all__" ? String(state.tags.size === 0) : String(state.tags.has(b.dataset.tag)));
+    b.setAttribute("aria-pressed", String(state.topics.has(b.dataset.topic)));
   }
   for (const t of document.querySelectorAll(".tabs [role=tab]")) {
     t.setAttribute("aria-selected", String(t.dataset.board === state.board));
@@ -220,13 +228,19 @@ document.querySelector(".tabs").addEventListener("click", (e) => {
   render();
 });
 
+groupEl.addEventListener("change", (e) => {
+  state.group = e.target.value;
+  state.topics.clear();
+  renderChips();
+  render();
+});
+
 chipsEl.addEventListener("click", (e) => {
-  const b = e.target.closest("[data-tag]");
+  const b = e.target.closest("[data-topic]");
   if (!b) return;
-  const t = b.dataset.tag;
-  if (t === "__all__") state.tags.clear();
-  else if (state.tags.has(t)) state.tags.delete(t);
-  else state.tags.add(t);
+  const t = b.dataset.topic;
+  if (state.topics.has(t)) state.topics.delete(t);
+  else state.topics.add(t);
   render();
 });
 
@@ -243,6 +257,7 @@ fetch("public/data/repos.json")
   .then((data) => {
     DATA = data;
     renderStats();
+    renderGroupPick();
     renderChips();
     render();
   })

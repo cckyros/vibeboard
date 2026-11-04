@@ -118,6 +118,23 @@ main { padding: 0 clamp(16px, 4vw, 48px); max-width: 1080px; margin: 0 auto; }
 .search input:focus-visible { border-color: var(--accent); }
 .search input::placeholder { color: var(--ink-2); }
 
+.tagbar { display: flex; flex-direction: column; gap: 0; }
+.group-pick select {
+  appearance: none;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  padding: 7px 30px 7px 12px;
+  margin-top: 10px;
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  background: var(--paper) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.5'/></svg>") no-repeat right 10px center;
+  color: var(--ink);
+  cursor: pointer;
+  max-width: 320px;
+}
+.group-pick select:hover { border-color: var(--ink-2); }
+.group-pick select:focus-visible { border-color: var(--accent); outline: none; }
+
 .chips {
   display: flex;
   gap: 8px;

@@ -125,7 +125,10 @@ export function buildTagMeta(repos, topN = 40) {
   const tagStats = [...stats.entries()].sort((a, b) => b[1] - a[1]).slice(0, topN)
     .map(([topic, count]) => ({ topic, count }));
   const tagGroups = [...groups.values()].sort((a, b) => b.count - a.count)
-    .map((g) => ({ id: g.id, label: g.label, count: g.count, topics: [...g.topics].sort() }));
+    .map((g) => ({
+      id: g.id, label: g.label, count: g.count,
+      topics: [...g.topics].map((t) => ({ topic: t, count: stats.get(t) })).sort((a, b) => b.count - a.count),
+    }));
   return { tagStats, tagGroups };
 }
 

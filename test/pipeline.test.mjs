@@ -160,7 +160,8 @@ test("buildTagMeta: 动态计数 + 簇只含真实命中 topics + 空簇不出�
   assert.equal(tagStats.find((t) => t.topic === "claude-code").count, 1);
   const claude = tagGroups.find((g) => g.id === "claude");
   assert.equal(claude.count, 2);
-  assert.deepEqual(claude.topics, ["claude", "claude-code"]);
+  assert.deepEqual(claude.topics.map((t) => t.topic).sort(), ["claude", "claude-code"]);
+  assert.ok(claude.topics.every((t) => typeof t.count === "number"));
   assert.ok(tagGroups.every((g) => g.count > 0));
   assert.equal(tagGroups[0].count >= tagGroups[tagGroups.length - 1].count, true); // 按 count 降序
 });
