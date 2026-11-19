@@ -10,6 +10,7 @@ import {
   normalizeRepo,
   buildBoards,
   buildIndex,
+  pickCorpus,
 } from "../scripts/pipeline.mjs";
 
 const base = {
@@ -187,6 +188,19 @@ test("buildBoards: three boards, correct order & filters", () => {
   assert.deepEqual(trending.map((r) => r.name), ["b", "a"]); // velocity order; null excluded
   assert.deepEqual(alltime.map((r) => r.name), ["c", "a", "b"]);
   assert.deepEqual(fresh.map((r) => r.name), ["a", "b"]); // c too old; a>b by stars
+});
+
+test("pickCorpus: union of star top-N and fresh slice", () => {
+  const now = new Date("2026-10-13T00:00:00Z");
+  const products = [
+    { full_name: "old/giant", stargazers_count: 1000, created_at: "2024-01-01" },
+    { full_name: "old/big", stargazers_count: 900, created_at: "2024-01-01" },
+    { full_name: "new/tiny", stargazers_count: 5, created_at: "2026-10-10" },
+    { full_name: "new/stale", stargazers_count: 3, created_at: "2026-06-01" },
+  ];
+  const picked = pickCorpus(products, 2, 5, now).map((r) => r.full_name);
+  assert.deepEqual(picked, ["old/giant", "old/big", "new/tiny"]); // 60d cutoff keeps tiny, drops stale
+  assert.deepEqual(pickCorpus(products, 2, 0, now).map((r) => r.full_name), ["old/giant", "old/big"]);
 });
 
 test("buildIndex: boards -> name lists", () => {

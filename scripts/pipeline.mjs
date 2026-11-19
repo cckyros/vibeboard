@@ -176,6 +176,26 @@ export function normalizeRepo(r, extra = {}) {
 
 const DAY = 86400e3;
 
+// --limit slices by total stars, which a <60d-old repo can almost never crack —
+// keep a fresh slice alongside so the New board isn't structurally empty.
+// Fresh entries sort by stars only and need no velocity calls.
+export function pickCorpus(products, starLimit, freshLimit, now = new Date()) {
+  const byStars = [...products].sort(
+    (a, b) => b.stargazers_count - a.stargazers_count,
+  );
+  const keep = new Map();
+  for (const r of byStars.slice(0, starLimit)) keep.set(r.full_name, r);
+  const cutoff = now.getTime() - 60 * DAY;
+  const freshTop = byStars
+    .filter((r) => !keep.has(r.full_name))
+    .filter((r) => new Date(r.created_at).getTime() >= cutoff)
+    .slice(0, freshLimit);
+  for (const r of freshTop) keep.set(r.full_name, r);
+  return [...keep.values()].sort(
+    (a, b) => b.stargazers_count - a.stargazers_count,
+  );
+}
+
 export function buildBoards(repos, now = new Date()) {
   const trending = [...repos]
     .filter((r) => r.stars7d !== null)

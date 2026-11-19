@@ -15,6 +15,7 @@ import {
   buildBoards,
   buildTagMeta,
   buildIndex,
+  pickCorpus,
 } from "./pipeline.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -111,8 +112,7 @@ async function main() {
   const products = deduped.filter(isProductRepo);
   console.log(`fetched ${pool.length} -> deduped ${deduped.length} -> products ${products.length}`);
 
-  const byStars = [...products].sort((a, b) => b.stargazers_count - a.stargazers_count);
-  const top = byStars.slice(0, LIMIT);
+  const top = pickCorpus(products, LIMIT, 60);
 
   const normalized = [];
   for (const [i, r] of top.entries()) {
